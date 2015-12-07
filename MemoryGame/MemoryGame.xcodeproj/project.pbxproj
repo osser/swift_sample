@@ -15,6 +15,7 @@
 		D144C4521C15384E007B0840 /* MemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C4511C15384E007B0840 /* MemoryGameTests.swift */; };
 		D144C45D1C154A68007B0840 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C45C1C154A68007B0840 /* MemoryViewController.swift */; };
 		D144C45F1C156D9C007B0840 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C45E1C156D9C007B0840 /* Deck.swift */; };
+		D144C4611C158D13007B0840 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C4601C158D13007B0840 /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D144C4531C15384E007B0840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D144C45C1C154A68007B0840 /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		D144C45E1C156D9C007B0840 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		D144C4601C158D13007B0840 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				D144C4481C15384D007B0840 /* Info.plist */,
 				D144C45C1C154A68007B0840 /* MemoryViewController.swift */,
 				D144C45E1C156D9C007B0840 /* Deck.swift */,
+				D144C4601C158D13007B0840 /* CardCell.swift */,
 			);
 			path = MemoryGame;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D144C4611C158D13007B0840 /* CardCell.swift in Sources */,
 				D144C45F1C156D9C007B0840 /* Deck.swift in Sources */,
 				D144C45D1C154A68007B0840 /* MemoryViewController.swift in Sources */,
 				D144C43F1C15384D007B0840 /* ViewController.swift in Sources */,
