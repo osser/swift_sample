@@ -52,7 +52,7 @@ class MemoryViewController: UIViewController {
     private func createDeck(numCards: Int) -> Deck {
         let fullDeck = Deck.full().shuffled();
         let halfDeck = fullDeck.deckOfNumberOfCards(numCards / 2);
-        return (fullDeck + halfDeck).shuffled();
+        return (halfDeck + halfDeck).shuffled();
     }
 }
 
