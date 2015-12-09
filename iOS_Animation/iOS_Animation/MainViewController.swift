@@ -28,27 +28,32 @@ extension MainViewController {
     func setup() {
         view.backgroundColor = UIColor.greenSea();
         
-        buildButtonController("Animation1", center:view.center, bgColor: UIColor.emerald(), clickHander:"btnAnimation1_click:");
-    }
-    
-    func buildButtonController(title: String, center: CGPoint, bgColor: UIColor, clickHander: Selector){
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50));
-        button.center = center;
-        button.setTitle(title, forState: .Normal);
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal);
-        button.backgroundColor = bgColor;
-        
-        button.addTarget(self, action: clickHander, forControlEvents: .TouchUpInside);
-        
-        view.addSubview(button);
+        buildButtonController("Animation1", center: CGPoint(x: view.center.x, y: view.center.y / 2), bgColor: UIColor.emerald(), clickHander:"btnAnimation1_click:");
+        buildButtonController("Animation2", center:view.center, bgColor: UIColor.wisteria(), clickHander:"btnAnimation2_click:");
+        buildButtonController("Animation3", center: CGPoint(x: view.center.x, y: view.center.y * 3 / 2), bgColor: UIColor.alizarin(), clickHander:"btnAnimation3_click:");
     }
 }
 
 // MARK:イベント処理
 extension MainViewController {
     func btnAnimation1_click(sender: UIButton){
-        print("btnAnimation1_click");
         let win = Animation1ViewController();
+        openTheWindow(win);
+    }
+
+    func btnAnimation2_click(sender: UIButton){
+        let win = Animation2ViewController();
+        openTheWindow(win);
+    }
+    
+    func btnAnimation3_click(sender: UIButton){
+        let win = Animation3ViewController();
+        openTheWindow(win);
+    }
+    
+    func openTheWindow(win:UIViewController){
+        win.modalPresentationStyle = .OverCurrentContext;
+        win.modalTransitionStyle = .CoverVertical;
         presentViewController(win, animated: true, completion: {});
     }
 }

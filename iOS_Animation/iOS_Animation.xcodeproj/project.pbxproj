@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D130ACBB1C17A0470069D85D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACBA1C17A0470069D85D /* UIViewController.swift */; };
+		D130ACBD1C17B7420069D85D /* color_palette.png in Resources */ = {isa = PBXBuildFile; fileRef = D130ACBC1C17B7420069D85D /* color_palette.png */; };
+		D130ACBF1C17BA9F0069D85D /* Animation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACBE1C17BA9F0069D85D /* Animation2ViewController.swift */; };
+		D130ACC11C17BAE70069D85D /* Animation3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC01C17BAE70069D85D /* Animation3ViewController.swift */; };
+		D130ACC51C17C2420069D85D /* Animation2CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC41C17C2420069D85D /* Animation2CardImageView.swift */; };
+		D130ACC71C17CCFA0069D85D /* Animation3Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC61C17CCFA0069D85D /* Animation3Card.swift */; };
 		D144C46F1C179256007B0840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C46E1C179256007B0840 /* AppDelegate.swift */; };
 		D144C4711C179256007B0840 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C4701C179256007B0840 /* MainViewController.swift */; };
 		D144C4741C179256007B0840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D144C4721C179256007B0840 /* Main.storyboard */; };
@@ -28,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D130ACBA1C17A0470069D85D /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D130ACBC1C17B7420069D85D /* color_palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_palette.png; path = ../../../../../Desktop/color_palette.png; sourceTree = "<group>"; };
+		D130ACBE1C17BA9F0069D85D /* Animation2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation2ViewController.swift; sourceTree = "<group>"; };
+		D130ACC01C17BAE70069D85D /* Animation3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation3ViewController.swift; sourceTree = "<group>"; };
+		D130ACC41C17C2420069D85D /* Animation2CardImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation2CardImageView.swift; sourceTree = "<group>"; };
+		D130ACC61C17CCFA0069D85D /* Animation3Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation3Card.swift; sourceTree = "<group>"; };
 		D144C46B1C179256007B0840 /* iOS_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D144C46E1C179256007B0840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D144C4701C179256007B0840 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +72,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D130ACC31C17C0FC0069D85D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				D144C46E1C179256007B0840 /* AppDelegate.swift */,
+				D144C4771C179256007B0840 /* LaunchScreen.storyboard */,
+				D144C4721C179256007B0840 /* Main.storyboard */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
 		D144C4621C179256007B0840 = {
 			isa = PBXGroup;
 			children = (
@@ -82,13 +104,15 @@
 			isa = PBXGroup;
 			children = (
 				D144C48E1C1793FA007B0840 /* Extra */,
-				D144C46E1C179256007B0840 /* AppDelegate.swift */,
 				D144C4701C179256007B0840 /* MainViewController.swift */,
-				D144C4721C179256007B0840 /* Main.storyboard */,
+				D130ACC31C17C0FC0069D85D /* System */,
 				D144C4751C179256007B0840 /* Assets.xcassets */,
-				D144C4771C179256007B0840 /* LaunchScreen.storyboard */,
 				D144C47A1C179256007B0840 /* Info.plist */,
 				D144C4911C179929007B0840 /* Animation1ViewController.swift */,
+				D130ACC41C17C2420069D85D /* Animation2CardImageView.swift */,
+				D130ACBE1C17BA9F0069D85D /* Animation2ViewController.swift */,
+				D130ACC61C17CCFA0069D85D /* Animation3Card.swift */,
+				D130ACC01C17BAE70069D85D /* Animation3ViewController.swift */,
 			);
 			path = iOS_Animation;
 			sourceTree = "<group>";
@@ -105,7 +129,9 @@
 		D144C48E1C1793FA007B0840 /* Extra */ = {
 			isa = PBXGroup;
 			children = (
+				D130ACBC1C17B7420069D85D /* color_palette.png */,
 				D144C48F1C17942D007B0840 /* UIColor.swift */,
+				D130ACBA1C17A0470069D85D /* UIViewController.swift */,
 			);
 			name = Extra;
 			sourceTree = "<group>";
@@ -192,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D144C4791C179256007B0840 /* LaunchScreen.storyboard in Resources */,
+				D130ACBD1C17B7420069D85D /* color_palette.png in Resources */,
 				D144C4761C179256007B0840 /* Assets.xcassets in Resources */,
 				D144C4741C179256007B0840 /* Main.storyboard in Resources */,
 			);
@@ -211,10 +238,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D130ACBF1C17BA9F0069D85D /* Animation2ViewController.swift in Sources */,
+				D130ACC11C17BAE70069D85D /* Animation3ViewController.swift in Sources */,
+				D130ACC71C17CCFA0069D85D /* Animation3Card.swift in Sources */,
+				D130ACC51C17C2420069D85D /* Animation2CardImageView.swift in Sources */,
 				D144C4711C179256007B0840 /* MainViewController.swift in Sources */,
 				D144C4921C179929007B0840 /* Animation1ViewController.swift in Sources */,
 				D144C4901C17942D007B0840 /* UIColor.swift in Sources */,
 				D144C46F1C179256007B0840 /* AppDelegate.swift in Sources */,
+				D130ACBB1C17A0470069D85D /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +434,7 @@
 				D144C48A1C179256007B0840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D144C48B1C179256007B0840 /* Build configuration list for PBXNativeTarget "iOS_AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +443,7 @@
 				D144C48D1C179256007B0840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

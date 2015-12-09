@@ -31,13 +31,13 @@ class CardCell: UICollectionViewCell {
     }
     
     func upturn() {
-        UIView.transitionWithView(contentView, duration: 1, options: .TransitionFlipFromRight, animations: {
+        UIView.transitionWithView(contentView, duration: 0.5, options: .TransitionFlipFromRight, animations: {
             self.frontImageView.image = UIImage(named: self.cardImageName)
         }, completion: nil);
     }
     
     func downturn() {
-        UIView.transitionWithView(contentView, duration: 1, options: .TransitionFlipFromLeft, animations: {
+        UIView.transitionWithView(contentView, duration: 0.5, options: .TransitionFlipFromLeft, animations: {
             self.frontImageView.image = UIImage(named: self.backImageName);
         }, completion: nil);
     }

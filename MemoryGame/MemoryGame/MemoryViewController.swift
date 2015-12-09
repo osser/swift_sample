@@ -203,7 +203,7 @@ private extension MemoryViewController {
     }
     
     func turnCardsFaceDown() {
-        execAfter(2.0, block: {
+        execAfter(1.0, block: {
             self.downturnCardsAtPlaces(self.selectedIndexes);
             self.selectedIndexes = Array<NSIndexPath>();
         });
