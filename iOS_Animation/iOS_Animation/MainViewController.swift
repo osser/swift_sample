@@ -28,9 +28,17 @@ extension MainViewController {
     func setup() {
         view.backgroundColor = UIColor.greenSea();
         
-        buildButtonController("Animation1", center: CGPoint(x: view.center.x, y: view.center.y / 2), bgColor: UIColor.emerald(), clickHander:"btnAnimation1_click:");
-        buildButtonController("Animation2", center:view.center, bgColor: UIColor.wisteria(), clickHander:"btnAnimation2_click:");
-        buildButtonController("Animation3", center: CGPoint(x: view.center.x, y: view.center.y * 3 / 2), bgColor: UIColor.alizarin(), clickHander:"btnAnimation3_click:");
+        let height = 80;
+        
+        let center1:CGPoint = CGPoint(x: Int(view.center.x), y: height * 1);
+        let center2:CGPoint = CGPoint(x: Int(view.center.x), y: height * 2);
+        let center3:CGPoint = CGPoint(x: Int(view.center.x), y: height * 3);
+        let center4:CGPoint = CGPoint(x: Int(view.center.x), y: height * 4);
+        
+        buildButtonController("Animation1", center: center1, bgColor: UIColor.midnightblue(), clickHander:"btnAnimation1_click:");
+        buildButtonController("Animation2", center: center2, bgColor: UIColor.wisteria(), clickHander:"btnAnimation2_click:");
+        buildButtonController("Animation3", center: center3, bgColor: UIColor.alizarin(), clickHander:"btnAnimation3_click:");
+        buildButtonController("Animation4", center: center4, bgColor: UIColor.belizehole(), clickHander:"btnAnimation4_click:");
     }
 }
 
@@ -48,6 +56,11 @@ extension MainViewController {
     
     func btnAnimation3_click(sender: UIButton){
         let win = Animation3ViewController();
+        openTheWindow(win);
+    }
+    
+    func btnAnimation4_click(sender: UIButton){
+        let win = Animation4ViewController();
         openTheWindow(win);
     }
     

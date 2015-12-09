@@ -9,7 +9,7 @@
 import UIKit
 
 class Animation3Card : NSObject {
-    var cardImageView: UIImageView!;
+    var cardImageView:UIImageView!;
 
     var isTurnUp:Bool = false;
 

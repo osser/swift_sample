@@ -13,6 +13,8 @@
 		D130ACC11C17BAE70069D85D /* Animation3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC01C17BAE70069D85D /* Animation3ViewController.swift */; };
 		D130ACC51C17C2420069D85D /* Animation2CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC41C17C2420069D85D /* Animation2CardImageView.swift */; };
 		D130ACC71C17CCFA0069D85D /* Animation3Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC61C17CCFA0069D85D /* Animation3Card.swift */; };
+		D130ACC91C17F4000069D85D /* Animation4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC81C17F4000069D85D /* Animation4ViewController.swift */; };
+		D130ACCB1C17FBFD0069D85D /* Animation4Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACCA1C17FBFD0069D85D /* Animation4Plane.swift */; };
 		D144C46F1C179256007B0840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C46E1C179256007B0840 /* AppDelegate.swift */; };
 		D144C4711C179256007B0840 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C4701C179256007B0840 /* MainViewController.swift */; };
 		D144C4741C179256007B0840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D144C4721C179256007B0840 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		D130ACC01C17BAE70069D85D /* Animation3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation3ViewController.swift; sourceTree = "<group>"; };
 		D130ACC41C17C2420069D85D /* Animation2CardImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation2CardImageView.swift; sourceTree = "<group>"; };
 		D130ACC61C17CCFA0069D85D /* Animation3Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation3Card.swift; sourceTree = "<group>"; };
+		D130ACC81C17F4000069D85D /* Animation4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation4ViewController.swift; sourceTree = "<group>"; };
+		D130ACCA1C17FBFD0069D85D /* Animation4Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation4Plane.swift; sourceTree = "<group>"; };
 		D144C46B1C179256007B0840 /* iOS_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D144C46E1C179256007B0840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D144C4701C179256007B0840 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				D130ACBE1C17BA9F0069D85D /* Animation2ViewController.swift */,
 				D130ACC61C17CCFA0069D85D /* Animation3Card.swift */,
 				D130ACC01C17BAE70069D85D /* Animation3ViewController.swift */,
+				D130ACCA1C17FBFD0069D85D /* Animation4Plane.swift */,
+				D130ACC81C17F4000069D85D /* Animation4ViewController.swift */,
 			);
 			path = iOS_Animation;
 			sourceTree = "<group>";
@@ -240,6 +246,8 @@
 			files = (
 				D130ACBF1C17BA9F0069D85D /* Animation2ViewController.swift in Sources */,
 				D130ACC11C17BAE70069D85D /* Animation3ViewController.swift in Sources */,
+				D130ACCB1C17FBFD0069D85D /* Animation4Plane.swift in Sources */,
+				D130ACC91C17F4000069D85D /* Animation4ViewController.swift in Sources */,
 				D130ACC71C17CCFA0069D85D /* Animation3Card.swift in Sources */,
 				D130ACC51C17C2420069D85D /* Animation2CardImageView.swift in Sources */,
 				D144C4711C179256007B0840 /* MainViewController.swift in Sources */,
