@@ -36,9 +36,9 @@ extension MainViewController {
         let center4:CGPoint = CGPoint(x: Int(view.center.x), y: height * 4);
         
         buildButtonController("Animation1", center: center1, bgColor: UIColor.midnightblue(), clickHander:"btnAnimation1_click:");
-        buildButtonController("Animation2", center: center2, bgColor: UIColor.wisteria(), clickHander:"btnAnimation2_click:");
-        buildButtonController("Animation3", center: center3, bgColor: UIColor.alizarin(), clickHander:"btnAnimation3_click:");
-        buildButtonController("Animation4", center: center4, bgColor: UIColor.belizehole(), clickHander:"btnAnimation4_click:");
+        buildButtonController("Animation2", center: center2, bgColor: UIColor.wisteria(),     clickHander:"btnAnimation2_click:");
+        buildButtonController("Animation3", center: center3, bgColor: UIColor.alizarin(),     clickHander:"btnAnimation3_click:");
+        buildButtonController("Animation4", center: center4, bgColor: UIColor.belizehole(),   clickHander:"btnAnimation4_click:");
     }
 }
 
