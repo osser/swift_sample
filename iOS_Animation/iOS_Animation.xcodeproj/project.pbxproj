@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D130ACBB1C17A0470069D85D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACBA1C17A0470069D85D /* UIViewController.swift */; };
-		D130ACBD1C17B7420069D85D /* color_palette.png in Resources */ = {isa = PBXBuildFile; fileRef = D130ACBC1C17B7420069D85D /* color_palette.png */; };
 		D130ACBF1C17BA9F0069D85D /* Animation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACBE1C17BA9F0069D85D /* Animation2ViewController.swift */; };
 		D130ACC11C17BAE70069D85D /* Animation3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC01C17BAE70069D85D /* Animation3ViewController.swift */; };
 		D130ACC51C17C2420069D85D /* Animation2CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC41C17C2420069D85D /* Animation2CardImageView.swift */; };
 		D130ACC71C17CCFA0069D85D /* Animation3Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC61C17CCFA0069D85D /* Animation3Card.swift */; };
 		D130ACC91C17F4000069D85D /* Animation4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACC81C17F4000069D85D /* Animation4ViewController.swift */; };
 		D130ACCB1C17FBFD0069D85D /* Animation4Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130ACCA1C17FBFD0069D85D /* Animation4Plane.swift */; };
+		D130AD2C1C19926A0069D85D /* color_palette.png in Resources */ = {isa = PBXBuildFile; fileRef = D130AD2B1C19926A0069D85D /* color_palette.png */; };
 		D144C46F1C179256007B0840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C46E1C179256007B0840 /* AppDelegate.swift */; };
 		D144C4711C179256007B0840 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144C4701C179256007B0840 /* MainViewController.swift */; };
 		D144C4741C179256007B0840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D144C4721C179256007B0840 /* Main.storyboard */; };
@@ -37,13 +37,13 @@
 
 /* Begin PBXFileReference section */
 		D130ACBA1C17A0470069D85D /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		D130ACBC1C17B7420069D85D /* color_palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = color_palette.png; path = ../../../../../Desktop/color_palette.png; sourceTree = "<group>"; };
 		D130ACBE1C17BA9F0069D85D /* Animation2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation2ViewController.swift; sourceTree = "<group>"; };
 		D130ACC01C17BAE70069D85D /* Animation3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation3ViewController.swift; sourceTree = "<group>"; };
 		D130ACC41C17C2420069D85D /* Animation2CardImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation2CardImageView.swift; sourceTree = "<group>"; };
 		D130ACC61C17CCFA0069D85D /* Animation3Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation3Card.swift; sourceTree = "<group>"; };
 		D130ACC81C17F4000069D85D /* Animation4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation4ViewController.swift; sourceTree = "<group>"; };
 		D130ACCA1C17FBFD0069D85D /* Animation4Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation4Plane.swift; sourceTree = "<group>"; };
+		D130AD2B1C19926A0069D85D /* color_palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_palette.png; sourceTree = "<group>"; };
 		D144C46B1C179256007B0840 /* iOS_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D144C46E1C179256007B0840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D144C4701C179256007B0840 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		D144C48E1C1793FA007B0840 /* Extra */ = {
 			isa = PBXGroup;
 			children = (
-				D130ACBC1C17B7420069D85D /* color_palette.png */,
+				D130AD2B1C19926A0069D85D /* color_palette.png */,
 				D144C48F1C17942D007B0840 /* UIColor.swift */,
 				D130ACBA1C17A0470069D85D /* UIViewController.swift */,
 			);
@@ -224,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D144C4791C179256007B0840 /* LaunchScreen.storyboard in Resources */,
-				D130ACBD1C17B7420069D85D /* color_palette.png in Resources */,
+				D130AD2C1C19926A0069D85D /* color_palette.png in Resources */,
 				D144C4761C179256007B0840 /* Assets.xcassets in Resources */,
 				D144C4741C179256007B0840 /* Main.storyboard in Resources */,
 			);
