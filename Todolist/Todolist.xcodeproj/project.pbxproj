@@ -16,6 +16,9 @@
 		D130AD1B1C198C500069D85D /* TodolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD1A1C198C500069D85D /* TodolistTests.swift */; };
 		D130AD281C19918D0069D85D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD271C19918D0069D85D /* UIColor.swift */; };
 		D130AD2A1C1992060069D85D /* color_palette.png in Resources */ = {isa = PBXBuildFile; fileRef = D130AD291C1992060069D85D /* color_palette.png */; };
+		D130AD2E1C19B3B60069D85D /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD2D1C19B3B60069D85D /* Entity.swift */; };
+		D130AD301C19B48A0069D85D /* TodosDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD2F1C19B48A0069D85D /* TodosDatastore.swift */; };
+		D130AD321C19BA970069D85D /* TodoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD311C19BA970069D85D /* TodoViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		D130AD1C1C198C500069D85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D130AD271C19918D0069D85D /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		D130AD291C1992060069D85D /* color_palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_palette.png; sourceTree = "<group>"; };
+		D130AD2D1C19B3B60069D85D /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		D130AD2F1C19B48A0069D85D /* TodosDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosDatastore.swift; sourceTree = "<group>"; };
+		D130AD311C19BA970069D85D /* TodoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewCell.swift; sourceTree = "<group>"; };
 		D71B48EEA0412AEEF5DECC61 /* Pods_Todolist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todolist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,9 +113,11 @@
 			children = (
 				D130AD261C19917E0069D85D /* Extra */,
 				D130AD251C198DFC0069D85D /* System */,
-				D130AD071C198C500069D85D /* TodosViewController.swift */,
 				D130AD0C1C198C500069D85D /* Assets.xcassets */,
-				D130AD111C198C500069D85D /* Info.plist */,
+				D130AD2D1C19B3B60069D85D /* Entity.swift */,
+				D130AD071C198C500069D85D /* TodosViewController.swift */,
+				D130AD2F1C19B48A0069D85D /* TodosDatastore.swift */,
+				D130AD311C19BA970069D85D /* TodoViewCell.swift */,
 			);
 			path = Todolist;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 		D130AD251C198DFC0069D85D /* System */ = {
 			isa = PBXGroup;
 			children = (
+				D130AD111C198C500069D85D /* Info.plist */,
 				D130AD051C198C500069D85D /* AppDelegate.swift */,
 				D130AD0E1C198C500069D85D /* LaunchScreen.storyboard */,
 				D130AD091C198C500069D85D /* Main.storyboard */,
@@ -295,8 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D130AD301C19B48A0069D85D /* TodosDatastore.swift in Sources */,
+				D130AD2E1C19B3B60069D85D /* Entity.swift in Sources */,
 				D130AD081C198C500069D85D /* TodosViewController.swift in Sources */,
 				D130AD281C19918D0069D85D /* UIColor.swift in Sources */,
+				D130AD321C19BA970069D85D /* TodoViewCell.swift in Sources */,
 				D130AD061C198C500069D85D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
