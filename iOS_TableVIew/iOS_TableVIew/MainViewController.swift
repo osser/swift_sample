@@ -10,7 +10,11 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-    private var items:[String] = ["Test1", "Test2", "Test3"];
+    private var items:[String] = [
+        "TableViewのボタンの拡張",
+        "Sample2",
+        "Sample3",
+    ];
     private var tableView:UITableView!;
 
     override func viewDidLoad() {
@@ -30,15 +34,14 @@ class MainViewController: UIViewController {
 // MARK:初期化
 extension MainViewController {
     func setup(){
-        // Status Barの高さを取得する.
-        let barHeight: CGFloat = UIApplication.sharedApplication().statusBarFrame.size.height;
+        title = "iOSテーブルサンプル";
         
-        // Viewの高さと幅を取得する.
+        let barHeight: CGFloat = UIApplication.sharedApplication().statusBarFrame.size.height;
         let displayWidth: CGFloat = self.view.frame.width;
         let displayHeight: CGFloat = self.view.frame.height;
-        
         tableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight), style: .Plain);
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+        
+        tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "MyCell")
         tableView.dataSource = self;
         tableView.delegate = self;
 
@@ -50,8 +53,19 @@ extension MainViewController {
 // MARK:UITableViewDelegate
 extension MainViewController:UITableViewDelegate{
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print("Num: \(indexPath.row)");
-        print("Value: \(items[indexPath.row])");
+        print("Num: \(indexPath.row), Value: \(items[indexPath.row])");
+        
+        switch indexPath.row+1 {
+            case 1:
+                openTheWindow(UISample1(), cb: nil);
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            default:
+                break;
+        }
     }
 }
 
