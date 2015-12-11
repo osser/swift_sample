@@ -9,13 +9,14 @@
 import UIKit
 import Cartography
 import LatoFont
+import MGSwipeTableCell
 
 class TodosViewController: UIViewController {
     
     private let tableView = UITableView();
     private let addButton = UIButton();
     
-    private let todosDatastore: TodosDatastore;
+    let todosDatastore: TodosDatastore;
     private var todos: [Todo];
     
     private init() {
@@ -55,15 +56,19 @@ class TodosViewController: UIViewController {
 extension TodosViewController {
     func setup() {
         title = "Todos";
-        view.backgroundColor = UIColor.clouds();
-        tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "Cell");
-        //tableView.registerClass(TodoViewCell.classForCoder(), forHeaderFooterViewReuseIdentifier: "Cell");
+
+        view.backgroundColor = UIColor.whiteColor();
+
+        //tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "Cell");
+        tableView.registerClass(TodoViewCell.classForCoder(), forCellReuseIdentifier: "Cell");
         tableView.dataSource = self;
-        tableView.rowHeight = 80;
+        tableView.rowHeight = 100;
         tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 100, right: 0);
         view.addSubview(tableView);
         
+        addButton.setImage(UIImage(named: "add-button"), forState: .Normal);
         addButton.addTarget(self, action: "addTodoButtonPressed:", forControlEvents: .TouchUpInside);
+
         view.addSubview(addButton);
     }
     func layoutView(){
@@ -81,17 +86,8 @@ extension TodosViewController {
             view.height == 60;
             
         });
-        
-//        constrain(addButton) { view in
-//            view.bottom == view.superview!.bottom - 5;
-//            view.centerX == view.superview!.centerX;
-//            view.width == view.height;
-//            view.height == 60;
-//        }
     }
     func style() {
-        view.backgroundColor = UIColor.whiteColor();
-        addButton.setImage(UIImage(named: "add-button"), forState: .Normal);
     }
     private func refresh(){
         todos = todosDatastore.todos().sort { a,b in
@@ -107,15 +103,16 @@ extension TodosViewController : UITableViewDataSource {
         return todos.count;
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell")! as UITableViewCell;
-        cell.selectionStyle = .Blue;
-        cell.textLabel?.font = UIFont.latoLightFontOfSize(14);
-        cell.textLabel?.text = "Todo number \(indexPath.row)";
-        
-//        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! TodoViewCell;
-//        let todo = todos[indexPath.row];
-//        cell.render(todo);
+//        let cell = tableView.dequeueReusableCellWithIdentifier("Cell")! as UITableViewCell;
 //        cell.selectionStyle = .Blue;
+//        cell.textLabel?.font = UIFont.latoLightFontOfSize(14);
+//        cell.textLabel?.text = "Todo number \(indexPath.row)";
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! TodoViewCell;
+        let todo = todos[indexPath.row];
+        cell.delegate = self;
+        cell.render(todo);
+        //cell.selectionStyle = .Blue;
         
         return cell;
     }
@@ -125,5 +122,51 @@ extension TodosViewController : UITableViewDataSource {
 extension TodosViewController {
     func addTodoButtonPressed(sender:UIButton) {
         print("addTodoButtonPressed");
+    }
+}
+
+// MARK:MGSwipeTableCellDelegate
+extension TodosViewController: MGSwipeTableCellDelegate {
+    func swipeTableCell(cell: MGSwipeTableCell!, canSwipe direction: MGSwipeDirection) -> Bool {
+        //print("swipeTableCell.canSwipe");
+        return true;
+    }
+    func swipeTableCell(cell: MGSwipeTableCell!, didChangeSwipeState state: MGSwipeState, gestureIsActive: Bool) {
+        //print("swipeTableCell.didChangeSwipeState");
+    }
+    func swipeTableCell(cell: MGSwipeTableCell!, swipeButtonsForDirection direction: MGSwipeDirection, swipeSettings: MGSwipeSettings!, expansionSettings: MGSwipeExpansionSettings!) -> [AnyObject]! {
+        //print("swipeTableCell.swipeButtonsForDirection");
+        return nil;
+    }
+    func swipeTableCell(cell: MGSwipeTableCell!, tappedButtonAtIndex index: Int, direction: MGSwipeDirection, fromExpansion: Bool) -> Bool {
+        if let mycell = cell as? TodoViewCell {
+            //print(mycell.todo);
+            switch direction {
+            case .LeftToRight:
+                switch index {
+                case 0:
+                    //print("Done");
+                    todosDatastore.doneTodo(mycell.todo);
+                    refresh();
+                default:
+                    break;
+                }
+                break;
+            case .RightToLeft:
+                switch index {
+                case 0:
+                    print("Edit");
+                    break;
+                case 1:
+                    //print("Delete");
+                    todosDatastore.deleteTodo(mycell.todo);
+                    refresh();
+                default:
+                    break;
+                }
+                break;
+            }
+        }
+        return true;
     }
 }

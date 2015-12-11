@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Foundation
 import Cartography
+import FontAwesomeKit
+import MGSwipeTableCell
 
-class TodoViewCell : UITableViewCell {
+class TodoViewCell : MGSwipeTableCell {
     private let subtitle = UILabel();
     private let title = UILabel();
     private let checkMark = UILabel();
+    
+    var todo: Todo!;
     
     override func layoutSubviews() {
         super.layoutSubviews();
@@ -25,6 +30,28 @@ class TodoViewCell : UITableViewCell {
 // MARK:Setup
 extension TodoViewCell {
     func setup(){
+        self.selectionStyle = .Blue;
+        
+        self.rightButtons = [
+            MGSwipeButton(title: "Edit", backgroundColor: UIColor.sunflower(), padding: 30, callback: { cell in
+                self.editButtonPressed();
+                return true;
+            }),
+            MGSwipeButton(title: "Delete", backgroundColor: UIColor.alizarin(), padding: 30, callback: { cell in
+                self.deleteButtonPressed();
+                return true;
+            }),
+        ];
+        self.rightExpansion.buttonIndex = 0;
+        
+        self.leftButtons = [
+            MGSwipeButton(title: "Done", backgroundColor: UIColor.emerald(), padding: 30, callback: { cell in
+                self.doneButtonPressed();
+                return true;
+            }),
+        ];
+        self.leftExpansion.buttonIndex = 0;
+        
         contentView.addSubview(subtitle);
         title.numberOfLines = 0;
         contentView.addSubview(title);
@@ -71,7 +98,38 @@ extension TodoViewCell {
 
 // MARK:render
 extension TodoViewCell {
-    //?????
+    private func checkmarkAttributedStringTodo(todo: Todo) -> NSAttributedString {
+        var icon: FAKIcon!;
+        if todo.done {
+            icon = FAKFontAwesome.checkSquareOIconWithSize(20);
+        }else{
+            icon = FAKFontAwesome.squareOIconWithSize(20);
+        }
+        return icon.attributedString();
+    }
     func render(todo: Todo){
+        self.todo = todo;
+        
+        let dateFormatter:NSDateFormatter = NSDateFormatter();
+        dateFormatter.dateFormat = "HH:mm dd-MM-YYYY";
+        let dueDate = dateFormatter.stringFromDate(todo.dueDate);
+        
+        subtitle.text = "\(dueDate) | \(todo.list.description)";
+        title.text = todo.description;
+        
+        checkMark.attributedText = checkmarkAttributedStringTodo(todo);
+    }
+}
+
+// MARK:イベント
+extension TodoViewCell {
+    func editButtonPressed(){
+        //print("editButtonPressed");
+    }
+    func deleteButtonPressed(){
+        //print("deleteButtonPressed");
+    }
+    func doneButtonPressed(){
+        //print("doneButtonPressed");
     }
 }
