@@ -19,6 +19,7 @@
 		D130AD2E1C19B3B60069D85D /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD2D1C19B3B60069D85D /* Entity.swift */; };
 		D130AD301C19B48A0069D85D /* TodosDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD2F1C19B48A0069D85D /* TodosDatastore.swift */; };
 		D130AD321C19BA970069D85D /* TodoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD311C19BA970069D85D /* TodoViewCell.swift */; };
+		D130AD7E1C1C51B00069D85D /* EditTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD7D1C1C51B00069D85D /* EditTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D130AD2D1C19B3B60069D85D /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		D130AD2F1C19B48A0069D85D /* TodosDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosDatastore.swift; sourceTree = "<group>"; };
 		D130AD311C19BA970069D85D /* TodoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewCell.swift; sourceTree = "<group>"; };
+		D130AD7D1C1C51B00069D85D /* EditTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTodoViewController.swift; sourceTree = "<group>"; };
 		D71B48EEA0412AEEF5DECC61 /* Pods_Todolist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todolist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				D130AD251C198DFC0069D85D /* System */,
 				D130AD0C1C198C500069D85D /* Assets.xcassets */,
 				D130AD2D1C19B3B60069D85D /* Entity.swift */,
+				D130AD7D1C1C51B00069D85D /* EditTodoViewController.swift */,
 				D130AD071C198C500069D85D /* TodosViewController.swift */,
 				D130AD2F1C19B48A0069D85D /* TodosDatastore.swift */,
 				D130AD311C19BA970069D85D /* TodoViewCell.swift */,
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D130AD7E1C1C51B00069D85D /* EditTodoViewController.swift in Sources */,
 				D130AD301C19B48A0069D85D /* TodosDatastore.swift in Sources */,
 				D130AD2E1C19B3B60069D85D /* Entity.swift in Sources */,
 				D130AD081C198C500069D85D /* TodosViewController.swift in Sources */,

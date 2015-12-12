@@ -121,7 +121,16 @@ extension TodosViewController : UITableViewDataSource {
 // MARK:イベント
 extension TodosViewController {
     func addTodoButtonPressed(sender:UIButton) {
-        print("addTodoButtonPressed");
+        //print("addTodoButtonPressed");
+        let addTodoVC = EditTodoViewController(todosDatastore: todosDatastore, todoToEdit: nil);
+        addTodoVC.title = "New Todo";
+        navigationController?.pushViewController(addTodoVC, animated: true);
+    }
+    func editButtonPressed(todo: Todo){
+        let editTotoVC = EditTodoViewController(todosDatastore: todosDatastore, todoToEdit: todo);
+        editTotoVC.title = "Edit Todo";
+        navigationController?.pushViewController(editTotoVC, animated: true);
+        
     }
 }
 
@@ -155,7 +164,8 @@ extension TodosViewController: MGSwipeTableCellDelegate {
             case .RightToLeft:
                 switch index {
                 case 0:
-                    print("Edit");
+                    //print("Edit");
+                    editButtonPressed(mycell.todo);
                     break;
                 case 1:
                     //print("Delete");

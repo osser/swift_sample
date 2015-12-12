@@ -11,6 +11,10 @@ import UIKit
 // 参照サイト:
 // https://flatuicolors.com/
 extension UIColor {
+    class func separatorColor() -> UIColor {
+        return UIColor.colorComponents((209, 209, 212));
+    }
+    
     class func turquoise() -> UIColor {
         return UIColor.colorComponents((26, 188, 156));
     }
