@@ -19,9 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let mainController = MainViewController();
         let navigatorController = UINavigationController(rootViewController: mainController);
+        navigatorController.navigationBar.backgroundColor = UIColor.nephritis();
         
         let mainWindow = UIWindow(frame: UIScreen.mainScreen().bounds);
-        //mainWindow.backgroundColor = UIColor.whiteColor();
+        mainWindow.backgroundColor = UIColor.whiteColor();
         //mainWindow.rootViewController = mainController;
         mainWindow.rootViewController = navigatorController;
         mainWindow.makeKeyAndVisible();

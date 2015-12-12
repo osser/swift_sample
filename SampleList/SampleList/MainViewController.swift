@@ -95,6 +95,13 @@ extension MainViewController {
 extension MainViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print("didSelectRowAtIndexPath: \(indexPath.row)");
+        
+        switch(items[indexPath.row]) {
+            case "UIKit":
+                pushWindow(UIKitIndexViewController());
+            default:
+                openTheWindow(NotImplementViewController());
+        }
     }
 
 }

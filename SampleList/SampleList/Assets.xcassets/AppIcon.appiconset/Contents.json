@@ -14,7 +14,7 @@
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "Icon-Spotlight-iOS7@2x.png",
+      "filename" : "Icon-Small-40@2x.png",
       "scale" : "2x"
     },
     {
@@ -25,7 +25,7 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Icon-120.png",
+      "filename" : "Icon-60@2x.png",
       "scale" : "2x"
     },
     {
