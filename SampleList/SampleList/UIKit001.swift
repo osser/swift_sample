@@ -48,7 +48,7 @@ extension UIKit001 {
         
         // 配置する座標を設定する.
         myLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 200);
-                
+        
         // ViewにLabelを追加.
         self.view.addSubview(myLabel);
     }

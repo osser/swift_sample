@@ -16,6 +16,10 @@ class UIKitIndexViewController: UIViewController {
     var items:[(id: String, showname: String)] = [
         (id:"UIKit001", showname:"UILabelで文字を表示"),
         (id:"UIKit002", showname:"UIButtonでボタンを表示"),
+        (id:"UIKit003", showname:"UIButtonでいろいろなボタンを表示"),
+        (id:"UIKit004", showname:"UITextFieldで文字を入力"),
+        (id:"UIKit005", showname:"UIImageViewで画像を表示"),
+        (id:"UIKit006", showname:"UITableViewでテーブルを表示"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];
@@ -70,12 +74,17 @@ extension UIKitIndexViewController : UITableViewDelegate {
         print(items[indexPath.row]);
         switch items[indexPath.row].id {
         case "UIKit001":
-            //openTheWindow(UIKit001());
             pushWindow(UIKit001());
-            break;
         case "UIKit002":
             pushWindow(UIKit002());
-            break;
+        case "UIKit003":
+            pushWindow(UIKit003());
+        case "UIKit004":
+            pushWindow(UIKit004());
+        case "UIKit005":
+            pushWindow(UIKit005());
+        case "UIKit006":
+            pushWindow(UIKit006());
         default:
             break;
         }
