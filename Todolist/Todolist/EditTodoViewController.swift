@@ -75,7 +75,11 @@ class EditTodoViewController: UIViewController {
 // MARK:イベント
 extension EditTodoViewController {
     func listButtonPressed(sender: UIButton){
-
+        let listsVC = ListsViewController(todosDatastore: todosDatastore, onListSelected: { list in
+            self.list = list;
+            self.refresh();
+        });
+        navigationController?.pushViewController(listsVC, animated: true);
     }
     func dueDateButtonPressed(sender: UIButton){
         descriptionTextField.resignFirstResponder();

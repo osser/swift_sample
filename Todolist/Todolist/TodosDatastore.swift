@@ -68,4 +68,9 @@ extension TodosDatastore {
         );
         addTodo(doneTodo);
     }
+    func addListDescription(description: String){
+        if !description.isEmpty {
+            savedLists = savedLists + [List(description: description)];
+        }
+    }
 }
