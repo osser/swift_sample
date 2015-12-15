@@ -13,9 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    private func styleApp() {
+        let fontAttributes = [NSFontAttributeName: UIFont.latoLightFontOfSize(18),
+            NSForegroundColorAttributeName: UIColor.blackColor()]
+        UINavigationBar.appearance().titleTextAttributes = fontAttributes
+        UIBarButtonItem.appearance().setTitleTextAttributes(fontAttributes, forState: .Normal)
+        UINavigationBar.appearance().tintColor = UIColor.blackColor()
+        UINavigationBar.appearance().barTintColor = UIColor.clouds();
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        styleApp()
         
         let mainController = MainViewController();
         let navigatorController = UINavigationController(rootViewController: mainController);

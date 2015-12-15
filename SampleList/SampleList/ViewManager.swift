@@ -22,8 +22,8 @@ struct ViewManager {
         }
     }
     
-    // デフォルトFloat(44)としてUnwrap
-    static func navigationBarHeight(win: UIViewController) -> CGFloat {
-        return win.navigationController?.navigationBar.frame.size.height ?? 44;
-    }
+//    // デフォルトFloat(44)としてUnwrap
+//    static func navigationBarHeight(win: UIViewController) -> CGFloat {
+//        return win.navigationController?.navigationBar.frame.size.height ?? 44;
+//    }
 }

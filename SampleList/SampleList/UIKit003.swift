@@ -46,6 +46,18 @@ extension UIKit003 {
     func setup(){
         view.backgroundColor = UIColor.whiteColor();
         
+        let headerHeight:CGFloat = navigationBarHeight; //(navigationController?.navigationBar.frame.size.height)!;
+        
+        print("headerHeight: \(headerHeight)");
+        print("ViewManager.statusBarHeight: \(ViewManager.statusBarHeight)");
+        
+        // 小さめのフォントの文字列をラベルに表示する.
+        let mySmallLabel: UILabel = UILabel()
+        mySmallLabel.font = UIFont.systemFontOfSize(UIFont.smallSystemFontSize())
+        mySmallLabel.text = "小さめのフォントサイズ"
+        mySmallLabel.frame = CGRect(x: 25, y: 0, width: 300, height: 150)
+        self.view.addSubview(mySmallLabel)
+        
         // ボタンを生成.
         myInfoDarkButton = UIButton(type: UIButtonType.InfoDark)
         myInfoLightButton = UIButton(type: UIButtonType.InfoLight)
@@ -54,7 +66,6 @@ extension UIKit003 {
         mySystemButton = UIButton(type: UIButtonType.System)
         
         // ボタンの位置を指定する.
-        let headerHeight:CGFloat = (navigationController?.navigationBar.frame.size.height)!;
         myInfoDarkButton.layer.position = CGPoint(x: self.view.frame.width/2, y:50 + headerHeight)
         myInfoLightButton.layer.position = CGPoint(x: self.view.frame.width/2, y:100 + headerHeight)
         myAddButton.layer.position = CGPoint(x: self.view.frame.width/2, y:150 + headerHeight)

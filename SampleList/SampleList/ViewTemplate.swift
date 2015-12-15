@@ -32,3 +32,8 @@ extension ViewTemplate {
 extension ViewTemplate {
     
 }
+
+// MARK:Actions
+extension ViewTemplate {
+    
+}

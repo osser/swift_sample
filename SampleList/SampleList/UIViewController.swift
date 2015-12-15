@@ -36,3 +36,14 @@ extension UIViewController {
         view.addSubview(label);
     }
 }
+
+// MARK:便利プロパティー
+
+extension UIViewController {
+    // デフォルトFloat(44)としてUnwrap
+    var navigationBarHeight:CGFloat {
+        get {
+            return navigationController?.navigationBar.frame.size.height ?? 44;
+        }
+    }
+}

@@ -20,6 +20,11 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit004", showname:"UITextFieldで文字を入力"),
         (id:"UIKit005", showname:"UIImageViewで画像を表示"),
         (id:"UIKit006", showname:"UITableViewでテーブルを表示"),
+        (id:"UIKit007", showname:"UIFontで文字を装飾"),
+        (id:"UIKit008", showname:"UILocalNotificationの表示"),
+        (id:"UIKit009", showname:"UIWebViewでページを表示"),
+        (id:"UIKit010", showname:"UIAlertControllerでアラートを表示"),
+        (id:"UIKit011", showname:"UIPickerViewで値の選択"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];
@@ -85,6 +90,16 @@ extension UIKitIndexViewController : UITableViewDelegate {
             pushWindow(UIKit005());
         case "UIKit006":
             pushWindow(UIKit006());
+        case "UIKit007":
+            pushWindow(UIKit007());
+        case "UIKit008":
+            pushWindow(UIKit008());
+        case "UIKit009":
+            pushWindow(UIKit009());
+        case "UIKit010":
+            pushWindow(UIKit010());
+        case "UIKit011":
+            pushWindow(UIKit011());
         default:
             break;
         }

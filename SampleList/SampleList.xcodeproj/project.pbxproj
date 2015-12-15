@@ -26,6 +26,11 @@
 		D130AD741C1B9CFC0069D85D /* NotImplementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD731C1B9CFC0069D85D /* NotImplementViewController.swift */; };
 		D130AD761C1C0AE20069D85D /* UIKitIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD751C1C0AE20069D85D /* UIKitIndexViewController.swift */; };
 		D130AD7C1C1C42470069D85D /* UIKit002.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD7B1C1C42470069D85D /* UIKit002.swift */; };
+		D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199C1C204212004154E1 /* UIKit007.swift */; };
+		D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199E1C204926004154E1 /* UIKit008.swift */; };
+		D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A01C204AC7004154E1 /* UIKit009.swift */; };
+		D1C319A31C204D54004154E1 /* UIKit010.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A21C204D54004154E1 /* UIKit010.swift */; };
+		D1C319A51C204E74004154E1 /* UIKit011.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A41C204E74004154E1 /* UIKit011.swift */; };
 		F0C50E683E7117EE4ED14B27 /* Pods_SampleList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83CEAB44D0710727D218847 /* Pods_SampleList.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +71,11 @@
 		D130AD731C1B9CFC0069D85D /* NotImplementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementViewController.swift; sourceTree = "<group>"; };
 		D130AD751C1C0AE20069D85D /* UIKitIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitIndexViewController.swift; sourceTree = "<group>"; };
 		D130AD7B1C1C42470069D85D /* UIKit002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit002.swift; sourceTree = "<group>"; };
+		D1C3199C1C204212004154E1 /* UIKit007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit007.swift; sourceTree = "<group>"; };
+		D1C3199E1C204926004154E1 /* UIKit008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit008.swift; sourceTree = "<group>"; };
+		D1C319A01C204AC7004154E1 /* UIKit009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit009.swift; sourceTree = "<group>"; };
+		D1C319A21C204D54004154E1 /* UIKit010.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit010.swift; sourceTree = "<group>"; };
+		D1C319A41C204E74004154E1 /* UIKit011.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit011.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +142,6 @@
 				D130AD6E1C1B02370069D85D /* UIKit */,
 				D130AD4D1C1AFB600069D85D /* Assets.xcassets */,
 				D130AD481C1AFB600069D85D /* MainViewController.swift */,
-				D130AD731C1B9CFC0069D85D /* NotImplementViewController.swift */,
 				D130AD711C1B02EA0069D85D /* ViewTemplate.swift */,
 			);
 			path = SampleList;
@@ -161,6 +170,7 @@
 		D130AD6B1C1AFCF10069D85D /* Extra */ = {
 			isa = PBXGroup;
 			children = (
+				D130AD731C1B9CFC0069D85D /* NotImplementViewController.swift */,
 				D130AD671C1AFC910069D85D /* color_palette.png */,
 				D130AD691C1AFCA50069D85D /* UIColor.swift */,
 				D130AD6C1C1AFD050069D85D /* UIViewController.swift */,
@@ -179,6 +189,11 @@
 				D12482E21C1DBB8700883C2C /* UIKit004.swift */,
 				D12482E41C1DBCAE00883C2C /* UIKit005.swift */,
 				D12482E61C1DBF1B00883C2C /* UIKit006.swift */,
+				D1C3199C1C204212004154E1 /* UIKit007.swift */,
+				D1C3199E1C204926004154E1 /* UIKit008.swift */,
+				D1C319A01C204AC7004154E1 /* UIKit009.swift */,
+				D1C319A21C204D54004154E1 /* UIKit010.swift */,
+				D1C319A41C204E74004154E1 /* UIKit011.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -343,13 +358,18 @@
 				D130AD761C1C0AE20069D85D /* UIKitIndexViewController.swift in Sources */,
 				D12482DB1C1DB0B800883C2C /* UIKit003.swift in Sources */,
 				D12482E51C1DBCAE00883C2C /* UIKit005.swift in Sources */,
+				D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */,
 				D130AD6A1C1AFCA50069D85D /* UIColor.swift in Sources */,
 				D130AD741C1B9CFC0069D85D /* NotImplementViewController.swift in Sources */,
+				D1C319A31C204D54004154E1 /* UIKit010.swift in Sources */,
 				D12482DD1C1DB71900883C2C /* ViewManager.swift in Sources */,
 				D130AD6D1C1AFD050069D85D /* UIViewController.swift in Sources */,
+				D1C319A51C204E74004154E1 /* UIKit011.swift in Sources */,
 				D130AD471C1AFB600069D85D /* AppDelegate.swift in Sources */,
 				D130AD7C1C1C42470069D85D /* UIKit002.swift in Sources */,
 				D12482E31C1DBB8700883C2C /* UIKit004.swift in Sources */,
+				D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */,
+				D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
