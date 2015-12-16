@@ -69,7 +69,7 @@ class MainViewController: UIViewController {
 // MARK:初期化
 extension MainViewController {
     func setup(){
-        title = "iOSサンプル集";
+        title = "swift samples";
         view.backgroundColor = UIColor.clouds();
         
         tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "myCell");

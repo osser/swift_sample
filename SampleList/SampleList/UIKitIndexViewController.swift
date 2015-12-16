@@ -38,6 +38,12 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit022", showname:"UISwitchの表示"),
         (id:"UIKit023", showname:"UIDatePickerの表示"),
         (id:"UIKit024", showname:"UIActivityIndicatorの表示"),
+        (id:"UIKit025", showname:"UISearchBarの表示"),
+        (id:"UIKit026", showname:"UIWindowの表示"),
+        (id:"UIKit027", showname:"UIToolBarの表示"),
+        (id:"UIKit028", showname:"UIProgressViewで進捗の具合の確認"),
+        (id:"UIKit029", showname:"UISegmentedControlの表示"),
+        (id:"UIKit030", showname:"UIStepperの表示"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];
@@ -143,6 +149,18 @@ extension UIKitIndexViewController : UITableViewDelegate {
             pushWindow(UIKit023());
         case "UIKit024":
             pushWindow(UIKit024());
+        case "UIKit025":
+            pushWindow(UIKit025());
+        case "UIKit026":
+            pushWindow(UIKit026());
+        case "UIKit027":
+            pushWindow(UIKit027());
+        case "UIKit028":
+            pushWindow(UIKit028());
+        case "UIKit029":
+            pushWindow(UIKit029());
+        case "UIKit030":
+            pushWindow(UIKit030());
         default:
             break;
         }
