@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (3.1.3)
+  - Cartography (0.6.0)
+  - FlickrKit (1.0.7)
+  - FXBlurView (1.6.4)
+  - LatoFont (1.0.1)
+  - SwiftyJSON (2.3.2)
+  - WeatherIconsKit (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 3.1.3)
+  - Cartography (= 0.6.0)
+  - FlickrKit (= 1.0.7)
+  - FXBlurView (= 1.6.4)
+  - LatoFont (from `https://github.com/gscalzo/LatoFont.git`)
+  - SwiftyJSON (= 2.3.2)
+  - WeatherIconsKit (from `git@github.com:gscalzo/WeatherIconsKit.git`)
+
+EXTERNAL SOURCES:
+  LatoFont:
+    :git: https://github.com/gscalzo/LatoFont.git
+  WeatherIconsKit:
+    :git: git@github.com:gscalzo/WeatherIconsKit.git
+
+CHECKOUT OPTIONS:
+  LatoFont:
+    :commit: 2739e4c28c92c82ca2c7daf289a238d62af01c42
+    :git: https://github.com/gscalzo/LatoFont.git
+  WeatherIconsKit:
+    :commit: effa8476b88010a5ea6d3cfcf5fb81db87ff5bfa
+    :git: git@github.com:gscalzo/WeatherIconsKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  FlickrKit: 907da468d679233a27d66dd88c6dcd024074b0f0
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  LatoFont: 0bfeace154ee2da6080123d0e80560f6e22b187d
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  WeatherIconsKit: 84526a4cdf9da972c2866f24e40360420b1d40bf
+
+COCOAPODS: 0.39.0
