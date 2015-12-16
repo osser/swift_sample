@@ -20,6 +20,8 @@ class UIKit001: UIViewController {
 // MARK:初期化
 extension UIKit001 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.midnightblue();
         
         // Labelを作成.

@@ -39,6 +39,8 @@ class UIKit010: UIViewController {
 // MARK:初期化
 extension UIKit010 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.whiteColor();
         
         
@@ -52,6 +54,7 @@ extension UIKit010 {
         myButton.layer.masksToBounds = true
         myButton.setTitle("UIAlertを発動", forState: UIControlState.Normal)
         myButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        myButton.setTitleColor(UIColor.midnightblue(), forState: UIControlState.Highlighted)
         myButton.layer.cornerRadius = 20.0
         myButton.layer.position = CGPoint(x: self.view.frame.width/2, y:200)
         myButton.addTarget(self, action: "onClickMyButton:", forControlEvents: .TouchUpInside)

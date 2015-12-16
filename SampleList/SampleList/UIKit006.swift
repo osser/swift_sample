@@ -41,6 +41,8 @@ class UIKit006: UIViewController {
 // MARK:初期化
 extension UIKit006 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.whiteColor();
         
         // Status Barの高さを取得する.

@@ -38,6 +38,8 @@ class UIKit007: UIViewController {
 // MARK:初期化
 extension UIKit007 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.whiteColor();
         
         // 小さめのフォントの文字列をラベルに表示する.

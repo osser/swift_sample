@@ -26,11 +26,26 @@
 		D130AD741C1B9CFC0069D85D /* NotImplementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD731C1B9CFC0069D85D /* NotImplementViewController.swift */; };
 		D130AD761C1C0AE20069D85D /* UIKitIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD751C1C0AE20069D85D /* UIKitIndexViewController.swift */; };
 		D130AD7C1C1C42470069D85D /* UIKit002.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130AD7B1C1C42470069D85D /* UIKit002.swift */; };
+		D176DC151C2133B200AB06FB /* GitHubSourceWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC141C2133B200AB06FB /* GitHubSourceWebView.swift */; };
 		D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199C1C204212004154E1 /* UIKit007.swift */; };
 		D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199E1C204926004154E1 /* UIKit008.swift */; };
 		D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A01C204AC7004154E1 /* UIKit009.swift */; };
 		D1C319A31C204D54004154E1 /* UIKit010.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A21C204D54004154E1 /* UIKit010.swift */; };
 		D1C319A51C204E74004154E1 /* UIKit011.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A41C204E74004154E1 /* UIKit011.swift */; };
+		D1C319A71C20D191004154E1 /* UIKit012.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A61C20D191004154E1 /* UIKit012.swift */; };
+		D1C319A91C20D7D7004154E1 /* UIKit013.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A81C20D7D7004154E1 /* UIKit013.swift */; };
+		D1D4CE3A1C21055800EEF223 /* UIKit014.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE391C21055800EEF223 /* UIKit014.swift */; };
+		D1D4CE3C1C210A2200EEF223 /* UIKit015.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE3B1C210A2200EEF223 /* UIKit015.swift */; };
+		D1D4CE3E1C210B8200EEF223 /* UIKit016.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE3D1C210B8200EEF223 /* UIKit016.swift */; };
+		D1D4CE401C210E7A00EEF223 /* UIKit017.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE3F1C210E7A00EEF223 /* UIKit017.swift */; };
+		D1D4CE421C2113E500EEF223 /* UIKit018.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE411C2113E500EEF223 /* UIKit018.swift */; };
+		D1D4CE441C21166000EEF223 /* UIKit019.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE431C21166000EEF223 /* UIKit019.swift */; };
+		D1D4CE461C21184000EEF223 /* UIKit020.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE451C21184000EEF223 /* UIKit020.swift */; };
+		D1D4CE481C211EFF00EEF223 /* UIKit021.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE471C211EFF00EEF223 /* UIKit021.swift */; };
+		D1D4CE4A1C2122B100EEF223 /* UIKit022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE491C2122B100EEF223 /* UIKit022.swift */; };
+		D1D4CE4C1C21241100EEF223 /* UIKit023.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE4B1C21241100EEF223 /* UIKit023.swift */; };
+		D1D4CE4E1C21256600EEF223 /* UIKit024.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE4D1C21256600EEF223 /* UIKit024.swift */; };
+		D1D4CE501C21311300EEF223 /* GithubSourceUIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4CE4F1C21311300EEF223 /* GithubSourceUIBarButtonItem.swift */; };
 		F0C50E683E7117EE4ED14B27 /* Pods_SampleList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83CEAB44D0710727D218847 /* Pods_SampleList.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,11 +86,26 @@
 		D130AD731C1B9CFC0069D85D /* NotImplementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementViewController.swift; sourceTree = "<group>"; };
 		D130AD751C1C0AE20069D85D /* UIKitIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitIndexViewController.swift; sourceTree = "<group>"; };
 		D130AD7B1C1C42470069D85D /* UIKit002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit002.swift; sourceTree = "<group>"; };
+		D176DC141C2133B200AB06FB /* GitHubSourceWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSourceWebView.swift; sourceTree = "<group>"; };
 		D1C3199C1C204212004154E1 /* UIKit007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit007.swift; sourceTree = "<group>"; };
 		D1C3199E1C204926004154E1 /* UIKit008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit008.swift; sourceTree = "<group>"; };
 		D1C319A01C204AC7004154E1 /* UIKit009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit009.swift; sourceTree = "<group>"; };
 		D1C319A21C204D54004154E1 /* UIKit010.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit010.swift; sourceTree = "<group>"; };
 		D1C319A41C204E74004154E1 /* UIKit011.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit011.swift; sourceTree = "<group>"; };
+		D1C319A61C20D191004154E1 /* UIKit012.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit012.swift; sourceTree = "<group>"; };
+		D1C319A81C20D7D7004154E1 /* UIKit013.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit013.swift; sourceTree = "<group>"; };
+		D1D4CE391C21055800EEF223 /* UIKit014.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit014.swift; sourceTree = "<group>"; };
+		D1D4CE3B1C210A2200EEF223 /* UIKit015.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit015.swift; sourceTree = "<group>"; };
+		D1D4CE3D1C210B8200EEF223 /* UIKit016.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit016.swift; sourceTree = "<group>"; };
+		D1D4CE3F1C210E7A00EEF223 /* UIKit017.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit017.swift; sourceTree = "<group>"; };
+		D1D4CE411C2113E500EEF223 /* UIKit018.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit018.swift; sourceTree = "<group>"; };
+		D1D4CE431C21166000EEF223 /* UIKit019.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit019.swift; sourceTree = "<group>"; };
+		D1D4CE451C21184000EEF223 /* UIKit020.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit020.swift; sourceTree = "<group>"; };
+		D1D4CE471C211EFF00EEF223 /* UIKit021.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit021.swift; sourceTree = "<group>"; };
+		D1D4CE491C2122B100EEF223 /* UIKit022.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit022.swift; sourceTree = "<group>"; };
+		D1D4CE4B1C21241100EEF223 /* UIKit023.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit023.swift; sourceTree = "<group>"; };
+		D1D4CE4D1C21256600EEF223 /* UIKit024.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit024.swift; sourceTree = "<group>"; };
+		D1D4CE4F1C21311300EEF223 /* GithubSourceUIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSourceUIBarButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +205,8 @@
 				D130AD691C1AFCA50069D85D /* UIColor.swift */,
 				D130AD6C1C1AFD050069D85D /* UIViewController.swift */,
 				D12482DC1C1DB71900883C2C /* ViewManager.swift */,
+				D1D4CE4F1C21311300EEF223 /* GithubSourceUIBarButtonItem.swift */,
+				D176DC141C2133B200AB06FB /* GitHubSourceWebView.swift */,
 			);
 			name = Extra;
 			sourceTree = "<group>";
@@ -194,6 +226,19 @@
 				D1C319A01C204AC7004154E1 /* UIKit009.swift */,
 				D1C319A21C204D54004154E1 /* UIKit010.swift */,
 				D1C319A41C204E74004154E1 /* UIKit011.swift */,
+				D1C319A61C20D191004154E1 /* UIKit012.swift */,
+				D1C319A81C20D7D7004154E1 /* UIKit013.swift */,
+				D1D4CE391C21055800EEF223 /* UIKit014.swift */,
+				D1D4CE3B1C210A2200EEF223 /* UIKit015.swift */,
+				D1D4CE3D1C210B8200EEF223 /* UIKit016.swift */,
+				D1D4CE3F1C210E7A00EEF223 /* UIKit017.swift */,
+				D1D4CE411C2113E500EEF223 /* UIKit018.swift */,
+				D1D4CE431C21166000EEF223 /* UIKit019.swift */,
+				D1D4CE451C21184000EEF223 /* UIKit020.swift */,
+				D1D4CE471C211EFF00EEF223 /* UIKit021.swift */,
+				D1D4CE491C2122B100EEF223 /* UIKit022.swift */,
+				D1D4CE4B1C21241100EEF223 /* UIKit023.swift */,
+				D1D4CE4D1C21256600EEF223 /* UIKit024.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -351,24 +396,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D4CE3A1C21055800EEF223 /* UIKit014.swift in Sources */,
 				D130AD701C1B02640069D85D /* UIKit001.swift in Sources */,
+				D1D4CE421C2113E500EEF223 /* UIKit018.swift in Sources */,
 				D130AD491C1AFB600069D85D /* MainViewController.swift in Sources */,
 				D130AD721C1B02EA0069D85D /* ViewTemplate.swift in Sources */,
+				D1D4CE4E1C21256600EEF223 /* UIKit024.swift in Sources */,
 				D12482E71C1DBF1B00883C2C /* UIKit006.swift in Sources */,
 				D130AD761C1C0AE20069D85D /* UIKitIndexViewController.swift in Sources */,
 				D12482DB1C1DB0B800883C2C /* UIKit003.swift in Sources */,
 				D12482E51C1DBCAE00883C2C /* UIKit005.swift in Sources */,
+				D1D4CE401C210E7A00EEF223 /* UIKit017.swift in Sources */,
+				D1D4CE3C1C210A2200EEF223 /* UIKit015.swift in Sources */,
 				D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */,
 				D130AD6A1C1AFCA50069D85D /* UIColor.swift in Sources */,
 				D130AD741C1B9CFC0069D85D /* NotImplementViewController.swift in Sources */,
 				D1C319A31C204D54004154E1 /* UIKit010.swift in Sources */,
+				D1D4CE481C211EFF00EEF223 /* UIKit021.swift in Sources */,
+				D1D4CE4C1C21241100EEF223 /* UIKit023.swift in Sources */,
 				D12482DD1C1DB71900883C2C /* ViewManager.swift in Sources */,
 				D130AD6D1C1AFD050069D85D /* UIViewController.swift in Sources */,
 				D1C319A51C204E74004154E1 /* UIKit011.swift in Sources */,
 				D130AD471C1AFB600069D85D /* AppDelegate.swift in Sources */,
+				D1D4CE441C21166000EEF223 /* UIKit019.swift in Sources */,
+				D176DC151C2133B200AB06FB /* GitHubSourceWebView.swift in Sources */,
 				D130AD7C1C1C42470069D85D /* UIKit002.swift in Sources */,
+				D1D4CE461C21184000EEF223 /* UIKit020.swift in Sources */,
 				D12482E31C1DBB8700883C2C /* UIKit004.swift in Sources */,
 				D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */,
+				D1C319A71C20D191004154E1 /* UIKit012.swift in Sources */,
+				D1D4CE501C21311300EEF223 /* GithubSourceUIBarButtonItem.swift in Sources */,
+				D1C319A91C20D7D7004154E1 /* UIKit013.swift in Sources */,
+				D1D4CE4A1C2122B100EEF223 /* UIKit022.swift in Sources */,
+				D1D4CE3E1C210B8200EEF223 /* UIKit016.swift in Sources */,
 				D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -40,6 +40,8 @@ class UIKit009: UIViewController {
 // MARK:初期化
 extension UIKit009 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+
         view.backgroundColor = UIColor.whiteColor();
         
         // WebViewを生成.

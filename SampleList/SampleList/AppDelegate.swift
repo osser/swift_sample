@@ -15,10 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private func styleApp() {
         let fontAttributes = [NSFontAttributeName: UIFont.latoLightFontOfSize(18),
-            NSForegroundColorAttributeName: UIColor.blackColor()]
-        UINavigationBar.appearance().titleTextAttributes = fontAttributes
-        UIBarButtonItem.appearance().setTitleTextAttributes(fontAttributes, forState: .Normal)
-        UINavigationBar.appearance().tintColor = UIColor.blackColor()
+            NSForegroundColorAttributeName: UIColor.blackColor()];
+        UINavigationBar.appearance().titleTextAttributes = fontAttributes;
+        UIBarButtonItem.appearance().setTitleTextAttributes(fontAttributes, forState: .Normal);
+        UINavigationBar.appearance().tintColor = UIColor.midnightblue();
         UINavigationBar.appearance().barTintColor = UIColor.clouds();
     }
 
@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainController = MainViewController();
         let navigatorController = UINavigationController(rootViewController: mainController);
         navigatorController.navigationBar.backgroundColor = UIColor.nephritis();
-        
+
         let mainWindow = UIWindow(frame: UIScreen.mainScreen().bounds);
         mainWindow.backgroundColor = UIColor.whiteColor();
         //mainWindow.rootViewController = mainController;

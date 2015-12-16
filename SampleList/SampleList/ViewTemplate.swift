@@ -8,6 +8,8 @@
 
 import UIKit
 import Cartography
+import LatoFont
+import MGSwipeTableCell
 
 class ViewTemplate: UIViewController {
     override func viewDidLoad() {
@@ -20,6 +22,8 @@ class ViewTemplate: UIViewController {
 // MARK:初期化
 extension ViewTemplate {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.whiteColor();
         
     }

@@ -22,7 +22,8 @@ extension UIViewController {
         navigationController?.pushViewController(win, animated: true);
     }
     func popWindow(win:UIViewController){
-        navigationController?.popToViewController(win, animated: true);
+        //navigationController?.popToViewController(win, animated: true);
+        navigationController?.popViewControllerAnimated(true);
     }
 }
 
@@ -34,6 +35,17 @@ extension UIViewController {
         label.textAlignment = .Center;
         label.text = "確認用";
         view.addSubview(label);
+    }
+    func buildGitHubSourceWebViewButton(sourceid:String) -> GithubSourceUIBarButtonItem {
+        let button:GithubSourceUIBarButtonItem = GithubSourceUIBarButtonItem(barButtonSystemItem: .Action, target: self, action: "buildGitHubSourceWebViewButton_click:");
+        button.sourceid = sourceid;
+        return button;
+    }
+    func buildGitHubSourceWebViewButton_click(sender: GithubSourceUIBarButtonItem) {
+        //print("buildGitHubSourceWebViewButton_click: sourceid=\(sender.sourceid)");
+        let win = GitHubSourceWebView(sourceid: sender.sourceid);
+        //openTheWindow(win);
+        pushWindow(win);
     }
 }
 

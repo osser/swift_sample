@@ -44,6 +44,8 @@ class UIKit003: UIViewController {
 // MARK:初期化
 extension UIKit003 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.whiteColor();
         
         let headerHeight:CGFloat = navigationBarHeight; //(navigationController?.navigationBar.frame.size.height)!;

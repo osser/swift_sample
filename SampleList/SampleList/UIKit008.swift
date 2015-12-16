@@ -38,6 +38,8 @@ class UIKit008: UIViewController {
 // MARK:初期化
 extension UIKit008 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.whiteColor();
         
         // アラート表示の許可をもらう.

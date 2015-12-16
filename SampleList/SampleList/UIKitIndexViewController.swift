@@ -25,6 +25,19 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit009", showname:"UIWebViewでページを表示"),
         (id:"UIKit010", showname:"UIAlertControllerでアラートを表示"),
         (id:"UIKit011", showname:"UIPickerViewで値の選択"),
+        (id:"UIKit012", showname:"UINavigationControllerの表示"),
+        (id:"UIKit013", showname:"?UITabBarControllerでタブの表示"),
+        (id:"UIKit014", showname:"UIImageViewの画像の回転/拡縮/反転"),
+        (id:"UIKit015", showname:"UIViewControllerで画面遷移する"),
+        (id:"UIKit016", showname:"UIScrollViewの表示"),
+        (id:"UIKit017", showname:"UIBarButtonItemの設置"),
+        (id:"UIKit018", showname:"UIPageControlの表示"),
+        (id:"UIKit019", showname:"セクション分けしたUITableViewを作る"),
+        (id:"UIKit020", showname:"UITextViewで複数行のテキストの表示"),
+        (id:"UIKit021", showname:"UISliderの表示"),
+        (id:"UIKit022", showname:"UISwitchの表示"),
+        (id:"UIKit023", showname:"UIDatePickerの表示"),
+        (id:"UIKit024", showname:"UIActivityIndicatorの表示"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];
@@ -39,6 +52,10 @@ class UIKitIndexViewController: UIViewController {
 // MARK:初期化
 extension UIKitIndexViewController {
     func setup(){
+        items.sortInPlace({ p1, p2 in
+            return p1.id > p2.id;
+        });
+        
         view.backgroundColor = UIColor.greenColor();
 
         listView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "myCell");
@@ -100,6 +117,32 @@ extension UIKitIndexViewController : UITableViewDelegate {
             pushWindow(UIKit010());
         case "UIKit011":
             pushWindow(UIKit011());
+        case "UIKit012":
+            pushWindow(UIKit012());
+        case "UIKit013":
+            pushWindow(UIKit013());
+        case "UIKit014":
+            pushWindow(UIKit014());
+        case "UIKit015":
+            pushWindow(UIKit015());
+        case "UIKit016":
+            pushWindow(UIKit016());
+        case "UIKit017":
+            pushWindow(UIKit017());
+        case "UIKit018":
+            pushWindow(UIKit018());
+        case "UIKit019":
+            pushWindow(UIKit019());
+        case "UIKit020":
+            pushWindow(UIKit020());
+        case "UIKit021":
+            pushWindow(UIKit021());
+        case "UIKit022":
+            pushWindow(UIKit022());
+        case "UIKit023":
+            pushWindow(UIKit023());
+        case "UIKit024":
+            pushWindow(UIKit024());
         default:
             break;
         }

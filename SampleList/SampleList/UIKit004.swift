@@ -40,6 +40,8 @@ class UIKit004: UIViewController {
 // MARK:初期化
 extension UIKit004 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.whiteColor();
         
         // UITextFieldを作成する.

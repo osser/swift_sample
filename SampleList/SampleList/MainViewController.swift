@@ -115,7 +115,7 @@ extension MainViewController: UITableViewDataSource {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("myCell")! as UITableViewCell;
         cell.selectionStyle = .Blue;
-        cell.textLabel?.font = UIFont.latoLightFontOfSize(16);
+        cell.textLabel?.font = UIFont.latoBoldFontOfSize(20);
         cell.textLabel?.text = items[indexPath.row]; //"サンプル \(indexPath.row)";
         return cell;
     }

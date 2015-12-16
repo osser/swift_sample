@@ -45,6 +45,8 @@ class UIKit011: UIViewController {
 // MARK:初期化
 extension UIKit011 {
     func setup(){
+        self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
+        
         view.backgroundColor = UIColor.whiteColor();
         
         myUIPicker = UIPickerView()
