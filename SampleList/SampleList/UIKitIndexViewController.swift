@@ -45,6 +45,12 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit029", showname:"UISegmentedControlの表示"),
         (id:"UIKit030", showname:"UIStepperの表示"),
         (id:"UIKit031", showname:"UINavigationItemでUINavigationBarを設定"),
+        (id:"UIKit032", showname:"UIAlertControllerでActionSheet表示"),
+        (id:"UIKit033", showname:"UIMenuControllerにMenuItemを追加"),
+        (id:"UIKit034", showname:"UIViewにUIMotionEffectを追加"),
+        (id:"UIKit035", showname:"UIViewにBlurエフェクトを適用させる"),
+        (id:"UIKit036", showname:"UIViewにトランジションをつける"),
+        (id:"UIKit037", showname:"タッチイベントの有効/無効を切り替える"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];

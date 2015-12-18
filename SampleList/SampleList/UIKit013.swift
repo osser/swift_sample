@@ -59,7 +59,13 @@ extension UIKit013 {
 // MARK:イベント
 extension UIKit013 {
     func startButton_click(sender: UIButton){
-        myWindow = UIWindow(frame: UIScreen.mainScreen().bounds);
+        //myWindow = UIWindow(frame: UIScreen.mainScreen().bounds);
+        myWindow = UIWindow(frame: CGRect(
+            x: 0,
+            y: UIApplication.sharedApplication().statusBarFrame.height,
+            width: view.frame.width,
+            height: view.frame.height - UIApplication.sharedApplication().statusBarFrame.height
+        ));
         
         let first = UIKit013First();
         let second = UIKit013Second();
@@ -69,9 +75,10 @@ extension UIKit013 {
         
         myTabBarController = UITabBarController();
         myTabBarController.setViewControllers(tabList, animated: true);
+        
         myTabBarController.selectedIndex = 1;
         myTabBarController.selectedViewController = first;
-        
+
         myWindow.rootViewController = myTabBarController;
         myWindow.makeKeyAndVisible();
     }

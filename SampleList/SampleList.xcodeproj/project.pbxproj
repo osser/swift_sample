@@ -39,6 +39,12 @@
 		D176DC5C1C23B55800AB06FB /* UIKit031Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC5B1C23B55800AB06FB /* UIKit031Second.swift */; };
 		D176DC5E1C23CD6E00AB06FB /* UIKit013First.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC5D1C23CD6E00AB06FB /* UIKit013First.swift */; };
 		D176DC601C23CD7C00AB06FB /* UIKit013Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC5F1C23CD7C00AB06FB /* UIKit013Second.swift */; };
+		D176DC931C23E44600AB06FB /* UIKit032.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC921C23E44600AB06FB /* UIKit032.swift */; };
+		D176DC951C23E56900AB06FB /* UIKit033.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC941C23E56900AB06FB /* UIKit033.swift */; };
+		D176DC971C23EA4E00AB06FB /* UIKit034.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC961C23EA4E00AB06FB /* UIKit034.swift */; };
+		D176DC991C23ECE000AB06FB /* UIKit035.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC981C23ECE000AB06FB /* UIKit035.swift */; };
+		D176DC9B1C23EEEB00AB06FB /* UIKit036.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC9A1C23EEEB00AB06FB /* UIKit036.swift */; };
+		D176DC9D1C23F20400AB06FB /* UIKit037.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC9C1C23F20400AB06FB /* UIKit037.swift */; };
 		D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199C1C204212004154E1 /* UIKit007.swift */; };
 		D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199E1C204926004154E1 /* UIKit008.swift */; };
 		D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A01C204AC7004154E1 /* UIKit009.swift */; };
@@ -111,6 +117,12 @@
 		D176DC5B1C23B55800AB06FB /* UIKit031Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit031Second.swift; sourceTree = "<group>"; };
 		D176DC5D1C23CD6E00AB06FB /* UIKit013First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit013First.swift; sourceTree = "<group>"; };
 		D176DC5F1C23CD7C00AB06FB /* UIKit013Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit013Second.swift; sourceTree = "<group>"; };
+		D176DC921C23E44600AB06FB /* UIKit032.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit032.swift; sourceTree = "<group>"; };
+		D176DC941C23E56900AB06FB /* UIKit033.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit033.swift; sourceTree = "<group>"; };
+		D176DC961C23EA4E00AB06FB /* UIKit034.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit034.swift; sourceTree = "<group>"; };
+		D176DC981C23ECE000AB06FB /* UIKit035.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit035.swift; sourceTree = "<group>"; };
+		D176DC9A1C23EEEB00AB06FB /* UIKit036.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit036.swift; sourceTree = "<group>"; };
+		D176DC9C1C23F20400AB06FB /* UIKit037.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit037.swift; sourceTree = "<group>"; };
 		D1C3199C1C204212004154E1 /* UIKit007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit007.swift; sourceTree = "<group>"; };
 		D1C3199E1C204926004154E1 /* UIKit008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit008.swift; sourceTree = "<group>"; };
 		D1C319A01C204AC7004154E1 /* UIKit009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit009.swift; sourceTree = "<group>"; };
@@ -275,6 +287,12 @@
 				D176DC571C23B05B00AB06FB /* UIKit031.swift */,
 				D176DC591C23B54E00AB06FB /* UIKit031First.swift */,
 				D176DC5B1C23B55800AB06FB /* UIKit031Second.swift */,
+				D176DC921C23E44600AB06FB /* UIKit032.swift */,
+				D176DC941C23E56900AB06FB /* UIKit033.swift */,
+				D176DC961C23EA4E00AB06FB /* UIKit034.swift */,
+				D176DC981C23ECE000AB06FB /* UIKit035.swift */,
+				D176DC9A1C23EEEB00AB06FB /* UIKit036.swift */,
+				D176DC9C1C23F20400AB06FB /* UIKit037.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -433,10 +451,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D4CE3A1C21055800EEF223 /* UIKit014.swift in Sources */,
+				D176DC9D1C23F20400AB06FB /* UIKit037.swift in Sources */,
+				D176DC991C23ECE000AB06FB /* UIKit035.swift in Sources */,
 				D130AD701C1B02640069D85D /* UIKit001.swift in Sources */,
+				D176DC971C23EA4E00AB06FB /* UIKit034.swift in Sources */,
 				D176DC211C214EAA00AB06FB /* UIKit029.swift in Sources */,
 				D176DC171C213DDB00AB06FB /* ObjectFactory.swift in Sources */,
 				D176DC1F1C214D3800AB06FB /* UIKit028.swift in Sources */,
+				D176DC951C23E56900AB06FB /* UIKit033.swift in Sources */,
 				D1D4CE421C2113E500EEF223 /* UIKit018.swift in Sources */,
 				D130AD491C1AFB600069D85D /* MainViewController.swift in Sources */,
 				D176DC601C23CD7C00AB06FB /* UIKit013Second.swift in Sources */,
@@ -476,8 +498,10 @@
 				D1C319A91C20D7D7004154E1 /* UIKit013.swift in Sources */,
 				D176DC1D1C21481000AB06FB /* UIKit027.swift in Sources */,
 				D1D4CE4A1C2122B100EEF223 /* UIKit022.swift in Sources */,
+				D176DC931C23E44600AB06FB /* UIKit032.swift in Sources */,
 				D1D4CE3E1C210B8200EEF223 /* UIKit016.swift in Sources */,
 				D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */,
+				D176DC9B1C23EEEB00AB06FB /* UIKit036.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
