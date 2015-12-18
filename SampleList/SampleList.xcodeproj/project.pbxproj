@@ -34,6 +34,11 @@
 		D176DC1F1C214D3800AB06FB /* UIKit028.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC1E1C214D3800AB06FB /* UIKit028.swift */; };
 		D176DC211C214EAA00AB06FB /* UIKit029.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC201C214EAA00AB06FB /* UIKit029.swift */; };
 		D176DC231C21514600AB06FB /* UIKit030.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC221C21514600AB06FB /* UIKit030.swift */; };
+		D176DC581C23B05B00AB06FB /* UIKit031.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC571C23B05B00AB06FB /* UIKit031.swift */; };
+		D176DC5A1C23B54E00AB06FB /* UIKit031First.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC591C23B54E00AB06FB /* UIKit031First.swift */; };
+		D176DC5C1C23B55800AB06FB /* UIKit031Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC5B1C23B55800AB06FB /* UIKit031Second.swift */; };
+		D176DC5E1C23CD6E00AB06FB /* UIKit013First.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC5D1C23CD6E00AB06FB /* UIKit013First.swift */; };
+		D176DC601C23CD7C00AB06FB /* UIKit013Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DC5F1C23CD7C00AB06FB /* UIKit013Second.swift */; };
 		D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199C1C204212004154E1 /* UIKit007.swift */; };
 		D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199E1C204926004154E1 /* UIKit008.swift */; };
 		D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A01C204AC7004154E1 /* UIKit009.swift */; };
@@ -101,6 +106,11 @@
 		D176DC1E1C214D3800AB06FB /* UIKit028.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit028.swift; sourceTree = "<group>"; };
 		D176DC201C214EAA00AB06FB /* UIKit029.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit029.swift; sourceTree = "<group>"; };
 		D176DC221C21514600AB06FB /* UIKit030.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit030.swift; sourceTree = "<group>"; };
+		D176DC571C23B05B00AB06FB /* UIKit031.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit031.swift; sourceTree = "<group>"; };
+		D176DC591C23B54E00AB06FB /* UIKit031First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit031First.swift; sourceTree = "<group>"; };
+		D176DC5B1C23B55800AB06FB /* UIKit031Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit031Second.swift; sourceTree = "<group>"; };
+		D176DC5D1C23CD6E00AB06FB /* UIKit013First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit013First.swift; sourceTree = "<group>"; };
+		D176DC5F1C23CD7C00AB06FB /* UIKit013Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit013Second.swift; sourceTree = "<group>"; };
 		D1C3199C1C204212004154E1 /* UIKit007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit007.swift; sourceTree = "<group>"; };
 		D1C3199E1C204926004154E1 /* UIKit008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit008.swift; sourceTree = "<group>"; };
 		D1C319A01C204AC7004154E1 /* UIKit009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit009.swift; sourceTree = "<group>"; };
@@ -243,6 +253,8 @@
 				D1C319A41C204E74004154E1 /* UIKit011.swift */,
 				D1C319A61C20D191004154E1 /* UIKit012.swift */,
 				D1C319A81C20D7D7004154E1 /* UIKit013.swift */,
+				D176DC5D1C23CD6E00AB06FB /* UIKit013First.swift */,
+				D176DC5F1C23CD7C00AB06FB /* UIKit013Second.swift */,
 				D1D4CE391C21055800EEF223 /* UIKit014.swift */,
 				D1D4CE3B1C210A2200EEF223 /* UIKit015.swift */,
 				D1D4CE3D1C210B8200EEF223 /* UIKit016.swift */,
@@ -260,6 +272,9 @@
 				D176DC1E1C214D3800AB06FB /* UIKit028.swift */,
 				D176DC201C214EAA00AB06FB /* UIKit029.swift */,
 				D176DC221C21514600AB06FB /* UIKit030.swift */,
+				D176DC571C23B05B00AB06FB /* UIKit031.swift */,
+				D176DC591C23B54E00AB06FB /* UIKit031First.swift */,
+				D176DC5B1C23B55800AB06FB /* UIKit031Second.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -424,6 +439,8 @@
 				D176DC1F1C214D3800AB06FB /* UIKit028.swift in Sources */,
 				D1D4CE421C2113E500EEF223 /* UIKit018.swift in Sources */,
 				D130AD491C1AFB600069D85D /* MainViewController.swift in Sources */,
+				D176DC601C23CD7C00AB06FB /* UIKit013Second.swift in Sources */,
+				D176DC5A1C23B54E00AB06FB /* UIKit031First.swift in Sources */,
 				D130AD721C1B02EA0069D85D /* ViewTemplate.swift in Sources */,
 				D1D4CE4E1C21256600EEF223 /* UIKit024.swift in Sources */,
 				D12482E71C1DBF1B00883C2C /* UIKit006.swift in Sources */,
@@ -434,6 +451,7 @@
 				D1D4CE3C1C210A2200EEF223 /* UIKit015.swift in Sources */,
 				D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */,
 				D130AD6A1C1AFCA50069D85D /* UIColor.swift in Sources */,
+				D176DC581C23B05B00AB06FB /* UIKit031.swift in Sources */,
 				D130AD741C1B9CFC0069D85D /* NotImplementViewController.swift in Sources */,
 				D1C319A31C204D54004154E1 /* UIKit010.swift in Sources */,
 				D1D4CE481C211EFF00EEF223 /* UIKit021.swift in Sources */,
@@ -444,10 +462,12 @@
 				D130AD471C1AFB600069D85D /* AppDelegate.swift in Sources */,
 				D1D4CE441C21166000EEF223 /* UIKit019.swift in Sources */,
 				D176DC231C21514600AB06FB /* UIKit030.swift in Sources */,
+				D176DC5C1C23B55800AB06FB /* UIKit031Second.swift in Sources */,
 				D176DC151C2133B200AB06FB /* GitHubSourceWebView.swift in Sources */,
 				D130AD7C1C1C42470069D85D /* UIKit002.swift in Sources */,
 				D1D4CE461C21184000EEF223 /* UIKit020.swift in Sources */,
 				D176DC1B1C21463600AB06FB /* UIKit026.swift in Sources */,
+				D176DC5E1C23CD6E00AB06FB /* UIKit013First.swift in Sources */,
 				D12482E31C1DBB8700883C2C /* UIKit004.swift in Sources */,
 				D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */,
 				D1C319A71C20D191004154E1 /* UIKit012.swift in Sources */,

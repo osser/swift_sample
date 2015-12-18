@@ -7,10 +7,6 @@
 
 https://www.hackingwithswift.com/
 
-### swift逆引き
-
-https://sites.google.com/a/gclue.jp/swift-docs/
-
 ### dribbbleデザイン
 
 https://dribbble.com/
@@ -22,6 +18,10 @@ https://trendingcocoapods.github.io/
 ### iOS逆引き
 
 https://sites.google.com/a/gclue.jp/swift-docs/home
+
+### Learn Swift Blog
+
+http://swift.oz-apps.com/
 
 ### iOS App Icon Resizer
 

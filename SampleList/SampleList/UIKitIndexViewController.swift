@@ -26,7 +26,7 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit010", showname:"UIAlertControllerでアラートを表示"),
         (id:"UIKit011", showname:"UIPickerViewで値の選択"),
         (id:"UIKit012", showname:"UINavigationControllerの表示"),
-        (id:"UIKit013", showname:"?UITabBarControllerでタブの表示"),
+        (id:"UIKit013", showname:"UITabBarControllerでタブの表示"),
         (id:"UIKit014", showname:"UIImageViewの画像の回転/拡縮/反転"),
         (id:"UIKit015", showname:"UIViewControllerで画面遷移する"),
         (id:"UIKit016", showname:"UIScrollViewの表示"),
@@ -44,6 +44,7 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit028", showname:"UIProgressViewで進捗の具合の確認"),
         (id:"UIKit029", showname:"UISegmentedControlの表示"),
         (id:"UIKit030", showname:"UIStepperの表示"),
+        (id:"UIKit031", showname:"UINavigationItemでUINavigationBarを設定"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];
@@ -99,69 +100,10 @@ extension UIKitIndexViewController : UITableViewDataSource {
 // MARK:UITableViewDelegate
 extension UIKitIndexViewController : UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print(items[indexPath.row]);
-        switch items[indexPath.row].id {
-        case "UIKit001":
-            pushWindow(UIKit001());
-        case "UIKit002":
-            pushWindow(UIKit002());
-        case "UIKit003":
-            pushWindow(UIKit003());
-        case "UIKit004":
-            pushWindow(UIKit004());
-        case "UIKit005":
-            pushWindow(UIKit005());
-        case "UIKit006":
-            pushWindow(UIKit006());
-        case "UIKit007":
-            pushWindow(UIKit007());
-        case "UIKit008":
-            pushWindow(UIKit008());
-        case "UIKit009":
-            pushWindow(UIKit009());
-        case "UIKit010":
-            pushWindow(UIKit010());
-        case "UIKit011":
-            pushWindow(UIKit011());
-        case "UIKit012":
-            pushWindow(UIKit012());
-        case "UIKit013":
-            pushWindow(UIKit013());
-        case "UIKit014":
-            pushWindow(UIKit014());
-        case "UIKit015":
-            pushWindow(UIKit015());
-        case "UIKit016":
-            pushWindow(UIKit016());
-        case "UIKit017":
-            pushWindow(UIKit017());
-        case "UIKit018":
-            pushWindow(UIKit018());
-        case "UIKit019":
-            pushWindow(UIKit019());
-        case "UIKit020":
-            pushWindow(UIKit020());
-        case "UIKit021":
-            pushWindow(UIKit021());
-        case "UIKit022":
-            pushWindow(UIKit022());
-        case "UIKit023":
-            pushWindow(UIKit023());
-        case "UIKit024":
-            pushWindow(UIKit024());
-        case "UIKit025":
-            pushWindow(UIKit025());
-        case "UIKit026":
-            pushWindow(UIKit026());
-        case "UIKit027":
-            pushWindow(UIKit027());
-        case "UIKit028":
-            pushWindow(UIKit028());
-        case "UIKit029":
-            pushWindow(UIKit029());
-        case "UIKit030":
-            pushWindow(UIKit030());
+        let class_name:String = items[indexPath.row].id;
+        switch class_name {
         default:
+            pushWindow(ObjectFactory.createVC(class_name));
             break;
         }
     }

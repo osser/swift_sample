@@ -1,26 +1,23 @@
 //
-//  UIKit013.swift
+//  UIKit031.swift
 //  SampleList
 //
-//  Created by xiaoma on 2015/12/16.
+//  Created by xiaoma on 2015/12/18.
 //  Copyright © 2015年 xiaoma. All rights reserved.
 //
 
 import UIKit
 import Cartography
-import LatoFont
 
-class UIKit013: UIViewController {
-
-    private var startButton: UIButton!;
-
-    private var myWindow: UIWindow = UIWindow();
-    private var myTabBarController: UITabBarController!
+class UIKit031: UIViewController {
     
+    let startButton:UIButton = UIButton();
+    
+    private var myWindow: UIWindow = UIWindow();
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         setup();
         layoutView();
     }
@@ -33,14 +30,14 @@ class UIKit013: UIViewController {
 
 
 // MARK:初期化
-extension UIKit013 {
+extension UIKit031 {
     func setup(){
         self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
-
+        
         view.backgroundColor = UIColor.whiteColor();
         
-        startButton = UIButton();
-        startButton.setTitle("TabBar Sample", forState: .Normal);
+        startButton.setTitle("Start", forState: .Normal);
+        startButton.setTitleColor(UIColor.whiteColor(), forState: .Normal);
         startButton.backgroundColor = UIColor.orange();
         startButton.layer.cornerRadius = 20;
         startButton.addTarget(self, action: "startButton_click:", forControlEvents: .TouchUpInside);
@@ -51,33 +48,35 @@ extension UIKit013 {
             lview.centerX == lview.superview!.centerX;
             lview.centerY == lview.superview!.centerY;
             lview.height == 50;
-            lview.width == 150;
+            lview.width == 100;
         });
     }
 }
 
 // MARK:イベント
-extension UIKit013 {
-    func startButton_click(sender: UIButton){
-        myWindow = UIWindow(frame: UIScreen.mainScreen().bounds);
+extension UIKit031 {
+    func startButton_click(sender:UIButton){
         
-        let first = UIKit013First();
-        let second = UIKit013Second();
-        second.parentWindow = myWindow;
+        // 背景を白に設定する.
+        myWindow.backgroundColor = UIColor.concrete()
+        myWindow.frame = view.frame;
+        myWindow.alpha = 1
+        myWindow.layer.cornerRadius = 50
+
+        let myFirst:UIKit031First = UIKit031First();
+        myFirst.parentWindow = myWindow;
+        let myNav: UINavigationController = UINavigationController(rootViewController: myFirst);
+        myWindow.rootViewController = myNav;
         
-        let tabList:[UIViewController] = [first, second];
+        // myWindowをkeyWindowにする.
+        myWindow.makeKeyWindow()
         
-        myTabBarController = UITabBarController();
-        myTabBarController.setViewControllers(tabList, animated: true);
-        myTabBarController.selectedIndex = 1;
-        myTabBarController.selectedViewController = first;
-        
-        myWindow.rootViewController = myTabBarController;
-        myWindow.makeKeyAndVisible();
+        // windowを表示する.
+        self.myWindow.makeKeyAndVisible()
     }
 }
 
 // MARK:Actions
-extension UIKit013 {
+extension UIKit031 {
     
 }
