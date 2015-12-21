@@ -1,22 +1,22 @@
 //
-//  UIKit009.swift
+//  UIKit043.swift
 //  SampleList
 //
-//  Created by xiaoma on 2015/12/15.
+//  Created by xiaoma on 2015/12/21.
 //  Copyright © 2015年 xiaoma. All rights reserved.
 //
 
 import UIKit
 
-class UIKit009: UIViewController {
-    
+class UIKit043: UIViewController {
+
     private var myWebView: UIWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         setup();
+        layoutView();
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,19 +25,17 @@ class UIKit009: UIViewController {
     }
 }
 
+
 // MARK:初期化
-extension UIKit009 {
+extension UIKit043 {
     func setup(){
         self.navigationItem.rightBarButtonItem = buildGitHubSourceWebViewButton("\(self.classForCoder)");
-
+        
         view.backgroundColor = UIColor.whiteColor();
         
         // WebViewを生成.
         myWebView = UIWebView()
-        
-        // Delegateを設定する.
-        myWebView.delegate = self
-        
+                
         // WebViewのサイズを設定する.
         myWebView.frame = self.view.bounds
         
@@ -45,13 +43,14 @@ extension UIKit009 {
         self.view.addSubview(myWebView)
         
         // URLを設定する.
-        let url: NSURL = NSURL(string: "https://www.google.co.jp")!
+        let url: NSURL = NSURL(string: "https://github.com/osser/swift_sample/blob/dev/SampleList/SampleList/\(self.classForCoder).swift")!
         
         // リクエストを作成する.
         let request: NSURLRequest = NSURLRequest(URL: url)
         
         // リクエストを実行する.
         myWebView.loadRequest(request)
+
     }
     func layoutView(){
         
@@ -59,22 +58,11 @@ extension UIKit009 {
 }
 
 // MARK:イベント
-extension UIKit009: UIWebViewDelegate {
-    /*
-    Pageがすべて読み込み終わった時呼ばれるデリゲートメソッド.
-    */
-    func webViewDidFinishLoad(webView: UIWebView) {
-        print("webViewDidFinishLoad")
-    }
+extension UIKit043 {
     
-    /*
-    Pageがloadされ始めた時、呼ばれるデリゲートメソッド.
-    */
-    func webViewDidStartLoad(webView: UIWebView) {
-        print("webViewDidStartLoad")
-    }
 }
 
 // MARK:Actions
-extension UIKit009 {
+extension UIKit043 {
+    
 }

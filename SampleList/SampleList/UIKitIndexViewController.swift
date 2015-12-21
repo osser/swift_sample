@@ -51,6 +51,19 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit035", showname:"UIViewにBlurエフェクトを適用させる"),
         (id:"UIKit036", showname:"UIViewにトランジションをつける"),
         (id:"UIKit037", showname:"タッチイベントの有効/無効を切り替える"),
+        (id:"UIKit038", showname:"UITextFieldに文字数制限を設ける"),
+        (id:"UIKit039", showname:"UITextFieldの入力をパスワード形式にする"),
+        (id:"UIKit040", showname:"GestureRecognizerのイベント取得"),
+        (id:"UIKit041", showname:"UIAlertControllerをパスワード形式にする"),
+        (id:"UIKit042", showname:"UIAlertControllerで文字数制限を設ける"),
+        (id:"UIKit043", showname:"プレビュー画面にエフェクト処理"),
+        (id:"UIKit044", showname:"セカンドScreenへの描画"),
+        (id:"UIKit045", showname:"TableViewのボタンの拡張"),
+        (id:"UIKit046", showname:"UITableViewをSlideさせる"),
+        (id:"UIKit047", showname:"周期の違うUIScrollViewを同期させる"),
+        (id:"UIKit048", showname:"プルンプルンするButtonの作成"),
+        (id:"UIKit049", showname:"カスタマイズButton"),
+        (id:"UIKit050", showname:"UIパーツの削除"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];

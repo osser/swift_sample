@@ -12,6 +12,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var myEffectView: UIView!
 
     private func styleApp() {
         let fontAttributes = [NSFontAttributeName: UIFont.latoLightFontOfSize(18),
@@ -43,6 +45,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+        
+        print("applicationWillResignActive");
+        
+        let effect: UIBlurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
+        myEffectView = UIVisualEffectView(effect: effect)
+        myEffectView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, UIScreen.mainScreen().bounds.size.height)
+        self.window?.addSubview(myEffectView)
     }
 
     func applicationDidEnterBackground(application: UIApplication) {
@@ -56,6 +65,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        print("applicationDidBecomeActive");
+        
+        if myEffectView != nil {
+            self.myEffectView.removeFromSuperview()
+        }
     }
 
     func applicationWillTerminate(application: UIApplication) {
