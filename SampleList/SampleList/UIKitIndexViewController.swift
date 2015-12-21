@@ -64,6 +64,11 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit048", showname:"プルンプルンするButtonの作成"),
         (id:"UIKit049", showname:"カスタマイズButton"),
         (id:"UIKit050", showname:"UIパーツの削除"),
+        (id:"UIKit051", showname:"UITableViewに追加・削除機能を追加"),
+        (id:"UIKit052", showname:"UIBezierPathで図形を描画"),
+        (id:"UIKit053", showname:"UICollectionViewを使う"),
+        (id:"UIKit054", showname:"UICollectionViewのCellをカスタマイズする"),
+        (id:"UIKit055", showname:"UICollectionViewをセクション毎に分ける"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];
