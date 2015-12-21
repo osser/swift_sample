@@ -65,6 +65,8 @@
 		D176DCC11C27AC3100AB06FB /* UIKit053.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCC01C27AC3100AB06FB /* UIKit053.swift */; };
 		D176DCC31C27ADD500AB06FB /* UIKit054.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCC21C27ADD500AB06FB /* UIKit054.swift */; };
 		D176DCC51C27AFA700AB06FB /* UIKit055.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCC41C27AFA700AB06FB /* UIKit055.swift */; };
+		D176DCC71C27BE3400AB06FB /* UIKit056.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCC61C27BE3400AB06FB /* UIKit056.swift */; };
+		D176DCC91C27C2CD00AB06FB /* UIKit057.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCC81C27C2CD00AB06FB /* UIKit057.swift */; };
 		D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199C1C204212004154E1 /* UIKit007.swift */; };
 		D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199E1C204926004154E1 /* UIKit008.swift */; };
 		D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A01C204AC7004154E1 /* UIKit009.swift */; };
@@ -163,6 +165,8 @@
 		D176DCC01C27AC3100AB06FB /* UIKit053.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit053.swift; sourceTree = "<group>"; };
 		D176DCC21C27ADD500AB06FB /* UIKit054.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit054.swift; sourceTree = "<group>"; };
 		D176DCC41C27AFA700AB06FB /* UIKit055.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit055.swift; sourceTree = "<group>"; };
+		D176DCC61C27BE3400AB06FB /* UIKit056.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit056.swift; sourceTree = "<group>"; };
+		D176DCC81C27C2CD00AB06FB /* UIKit057.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit057.swift; sourceTree = "<group>"; };
 		D1C3199C1C204212004154E1 /* UIKit007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit007.swift; sourceTree = "<group>"; };
 		D1C3199E1C204926004154E1 /* UIKit008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit008.swift; sourceTree = "<group>"; };
 		D1C319A01C204AC7004154E1 /* UIKit009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit009.swift; sourceTree = "<group>"; };
@@ -353,6 +357,8 @@
 				D176DCC01C27AC3100AB06FB /* UIKit053.swift */,
 				D176DCC21C27ADD500AB06FB /* UIKit054.swift */,
 				D176DCC41C27AFA700AB06FB /* UIKit055.swift */,
+				D176DCC61C27BE3400AB06FB /* UIKit056.swift */,
+				D176DCC81C27C2CD00AB06FB /* UIKit057.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -545,6 +551,7 @@
 				D130AD6A1C1AFCA50069D85D /* UIColor.swift in Sources */,
 				D176DCBB1C279B0600AB06FB /* UIKit051.swift in Sources */,
 				D176DCA11C276F0100AB06FB /* UIKit039.swift in Sources */,
+				D176DCC91C27C2CD00AB06FB /* UIKit057.swift in Sources */,
 				D176DC581C23B05B00AB06FB /* UIKit031.swift in Sources */,
 				D130AD741C1B9CFC0069D85D /* NotImplementViewController.swift in Sources */,
 				D1C319A31C204D54004154E1 /* UIKit010.swift in Sources */,
@@ -556,6 +563,7 @@
 				D1C319A51C204E74004154E1 /* UIKit011.swift in Sources */,
 				D176DC9F1C27698B00AB06FB /* UIKit038.swift in Sources */,
 				D130AD471C1AFB600069D85D /* AppDelegate.swift in Sources */,
+				D176DCC71C27BE3400AB06FB /* UIKit056.swift in Sources */,
 				D176DCAF1C2790FF00AB06FB /* UIKit046.swift in Sources */,
 				D1D4CE441C21166000EEF223 /* UIKit019.swift in Sources */,
 				D176DCBF1C27A05900AB06FB /* UIKit051VC.swift in Sources */,

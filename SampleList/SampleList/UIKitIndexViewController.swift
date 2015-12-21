@@ -69,6 +69,8 @@ class UIKitIndexViewController: UIViewController {
         (id:"UIKit053", showname:"UICollectionViewを使う"),
         (id:"UIKit054", showname:"UICollectionViewのCellをカスタマイズする"),
         (id:"UIKit055", showname:"UICollectionViewをセクション毎に分ける"),
+        (id:"UIKit056", showname:"UIImagePickerControllerでライブラリから画像を選択"),
+        (id:"UIKit057", showname:"UIImageで画像の透過"),
     ];
     
     var arr: [(firstname: String, lastname: String?)] = [];
