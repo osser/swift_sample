@@ -67,6 +67,9 @@
 		D176DCC51C27AFA700AB06FB /* UIKit055.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCC41C27AFA700AB06FB /* UIKit055.swift */; };
 		D176DCC71C27BE3400AB06FB /* UIKit056.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCC61C27BE3400AB06FB /* UIKit056.swift */; };
 		D176DCC91C27C2CD00AB06FB /* UIKit057.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCC81C27C2CD00AB06FB /* UIKit057.swift */; };
+		D176DCCB1C298EC300AB06FB /* UIKit058.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCCA1C298EC300AB06FB /* UIKit058.swift */; };
+		D176DCCD1C29910A00AB06FB /* UIKit059.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCCC1C29910A00AB06FB /* UIKit059.swift */; };
+		D176DCCF1C2992B200AB06FB /* UIKit060.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176DCCE1C2992B200AB06FB /* UIKit060.swift */; };
 		D1C3199D1C204212004154E1 /* UIKit007.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199C1C204212004154E1 /* UIKit007.swift */; };
 		D1C3199F1C204926004154E1 /* UIKit008.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3199E1C204926004154E1 /* UIKit008.swift */; };
 		D1C319A11C204AC7004154E1 /* UIKit009.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C319A01C204AC7004154E1 /* UIKit009.swift */; };
@@ -167,6 +170,9 @@
 		D176DCC41C27AFA700AB06FB /* UIKit055.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit055.swift; sourceTree = "<group>"; };
 		D176DCC61C27BE3400AB06FB /* UIKit056.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit056.swift; sourceTree = "<group>"; };
 		D176DCC81C27C2CD00AB06FB /* UIKit057.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit057.swift; sourceTree = "<group>"; };
+		D176DCCA1C298EC300AB06FB /* UIKit058.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit058.swift; sourceTree = "<group>"; };
+		D176DCCC1C29910A00AB06FB /* UIKit059.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit059.swift; sourceTree = "<group>"; };
+		D176DCCE1C2992B200AB06FB /* UIKit060.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit060.swift; sourceTree = "<group>"; };
 		D1C3199C1C204212004154E1 /* UIKit007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit007.swift; sourceTree = "<group>"; };
 		D1C3199E1C204926004154E1 /* UIKit008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit008.swift; sourceTree = "<group>"; };
 		D1C319A01C204AC7004154E1 /* UIKit009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit009.swift; sourceTree = "<group>"; };
@@ -359,6 +365,9 @@
 				D176DCC41C27AFA700AB06FB /* UIKit055.swift */,
 				D176DCC61C27BE3400AB06FB /* UIKit056.swift */,
 				D176DCC81C27C2CD00AB06FB /* UIKit057.swift */,
+				D176DCCA1C298EC300AB06FB /* UIKit058.swift */,
+				D176DCCC1C29910A00AB06FB /* UIKit059.swift */,
+				D176DCCE1C2992B200AB06FB /* UIKit060.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -537,6 +546,7 @@
 				D176DCAB1C278C1900AB06FB /* UIKit044.swift in Sources */,
 				D176DC5A1C23B54E00AB06FB /* UIKit031First.swift in Sources */,
 				D130AD721C1B02EA0069D85D /* ViewTemplate.swift in Sources */,
+				D176DCCD1C29910A00AB06FB /* UIKit059.swift in Sources */,
 				D1D4CE4E1C21256600EEF223 /* UIKit024.swift in Sources */,
 				D12482E71C1DBF1B00883C2C /* UIKit006.swift in Sources */,
 				D130AD761C1C0AE20069D85D /* UIKitIndexViewController.swift in Sources */,
@@ -582,9 +592,11 @@
 				D176DC191C21439700AB06FB /* UIKit025.swift in Sources */,
 				D1D4CE501C21311300EEF223 /* GithubSourceUIBarButtonItem.swift in Sources */,
 				D1C319A91C20D7D7004154E1 /* UIKit013.swift in Sources */,
+				D176DCCF1C2992B200AB06FB /* UIKit060.swift in Sources */,
 				D176DC1D1C21481000AB06FB /* UIKit027.swift in Sources */,
 				D1D4CE4A1C2122B100EEF223 /* UIKit022.swift in Sources */,
 				D176DCB91C27985500AB06FB /* UIKit050.swift in Sources */,
+				D176DCCB1C298EC300AB06FB /* UIKit058.swift in Sources */,
 				D176DC931C23E44600AB06FB /* UIKit032.swift in Sources */,
 				D176DCA91C2780D000AB06FB /* UIKit043.swift in Sources */,
 				D1D4CE3E1C210B8200EEF223 /* UIKit016.swift in Sources */,

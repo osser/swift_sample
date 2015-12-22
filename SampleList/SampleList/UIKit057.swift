@@ -19,7 +19,7 @@ class UIKit057: UIViewController {
         let myImage:UIImage = UIImage(named:"background")!
         
         // リサイズされたUIImageを指定して、UIImageViewを作る.
-        let myImageView = UIImageView(image: UIImage.ResizeÜIImage(myImage, width: self.view.frame.maxX, height: self.view.frame.maxY))
+        let myImageView = UIImageView(image: UIImage.UIKit057ResizeUIImage(myImage, width: self.view.frame.maxX, height: self.view.frame.maxY))
         
         // 透過する.
         myImageView.alpha = 0.05
@@ -37,7 +37,7 @@ class UIKit057: UIViewController {
 extension UIImage{
     
     // Resizeのクラスメソッドを作る.
-    class func ResizeÜIImage(image : UIImage,width : CGFloat, height : CGFloat)-> UIImage!{
+    class func UIKit057ResizeUIImage(image : UIImage,width : CGFloat, height : CGFloat)-> UIImage!{
         
         // 指定された画像の大きさのコンテキストを用意.
         UIGraphicsBeginImageContext(CGSizeMake(width, height))
